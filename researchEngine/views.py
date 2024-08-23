@@ -37,9 +37,27 @@ from .models import LegalDocument, CaseOutcome
 from django.shortcuts import render, redirect
 from .models import LegalDocument, CaseOutcome
 from .utils import ResearchEngine
+import json
+from django.http import JsonResponse, HttpResponse
+
+def landing_page(request):
+    return render(request, 'ResearchEngine/landing_page.html')
 
 def home(request):
+    if request.method == 'POST':
+        data = json.loads(request.body)
+        query = data.get('query', '')
+
+        # Process the query and generate a response (replace this with your actual logic)
+        bot_response = f'''You asked: {query}. Here's a response from the AI.'''
+        return JsonResponse({'response': bot_response})
     return render(request, 'ResearchEngine/home.html')
+
+def about(request):
+    return render(request, 'ResearchEngine/about.html')
+
+def contact(request):
+    return render(request, 'ResearchEngine/contact.html')
 
 def upload_document(request):
     if request.method == 'POST':

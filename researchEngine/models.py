@@ -11,7 +11,6 @@ class LegalDocument(models.Model):
 
     def __str__(self):
         return self.title
-    
 
 class CaseOutcome(models.Model):
     case = models.ForeignKey(LegalDocument, on_delete=models.CASCADE)

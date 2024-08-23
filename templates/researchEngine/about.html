@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #343a40;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .hero-section {
+            background: #007bff;
+            color: #ffffff;
+            padding: 4rem 0;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        .hero-section p {
+            font-size: 1.25rem;
+        }
+
+        .team-member {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .team-member img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+
+        .team-member h5 {
+            font-weight: 600;
+        }
+
+        .team-member p {
+            color: #6c757d;
+        }
+
+        .contact-info {
+            background: #343a40;
+            color: #ffffff;
+            padding: 2rem 0;
+        }
+
+        .contact-info h2 {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .contact-info p {
+            font-size: 1.25rem;
+        }
+
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/"><i class="fas fa-balance-scale mr-2"></i>AI Research Engine</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item active"><a class="nav-link" href="/about/">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
+                <li class="nav-item ml-2">
+                    <select class="form-control">
+                        <option value="en">English</option>
+                        <option value="hi">Hindi</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section bg-dark text-center">
+        <div class="container">
+            <h1>About Us</h1>
+            <p>Welcome to our project. Here we provide innovative solutions and dedicated support to help you achieve your goals. Learn more about what we do and meet the team behind the scenes.</p>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Meet Our Team</h2>
+        <div class="row">
+            <!-- Team Member 1 -->
+            <div class="col-md-4 team-member">
+                <img src="https://avatars.githubusercontent.com/u/122283853?v=4" alt="Team Member 1">
+                <h5>Abhishek Singh</h5>
+                <p>Team Member 1</p>
+                <p>Abhishek Singh is the visionary behind our project. With over 3 years of experience in Computer Science and Programming languages.</p>
+            </div>
+            <!-- Team Member 2 -->
+            <div class="col-md-4 team-member">
+                <img src="{% static "images/user.png" %}" alt="Team Member 2">
+                <h5>Jane Smith</h5>
+                <p>Team Member 2</p>
+                <p>Jane leads our tech team, overseeing product development and ensuring our solutions are cutting-edge and reliable.</p>
+            </div>
+            <!-- Team Member 3 -->
+            <div class="col-md-4 team-member">
+                <img src="{% static "images/user.png" %}" alt="Team Member 3">
+                <h5>Michael Brown</h5>
+                <p>Team Member 3</p>
+                <p>Michael is responsible for creating intuitive and engaging user interfaces, making sure our products are both functional and beautiful.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-info text-center">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or need support? Reach out to us at:</p>
+            <p>Email: <a href="mailto:support@yourproject.com">support@yourproject.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">+911234567890</a></p>
+            <p>Address: Indian Institute of Technology (Indian School of Mines) Dhanbad, Jharkhand, India</p>
+        </div>
+    </section>
+
+    <!-- Bootstrap and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
