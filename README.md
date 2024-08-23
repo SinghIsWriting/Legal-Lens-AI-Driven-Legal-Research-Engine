@@ -1,4 +1,4 @@
-# **LexAssist Pro: AI-Driven Legal Research Engine**
+# **Legal Lens: AI-Driven Legal Research Engine**
 
 ## **Table of Contents**
 - [Project Overview](#project-overview)
@@ -99,13 +99,13 @@ Use the language dropdown in the navbar to switch between supported languages.
 ## **Screenshots**
 
 ### Home Page
-![Home Page](Screenshots/Screenshot-home.png)
+![Home Page](Screenshots/Screenshot-home.jpeg)
 
 ### Legal Search Page
-![Chatbot Interface](Screenshots/Screenshot_query.png)
+![Chatbot Interface](Screenshots/Screenshot_query.jpeg)
 
 ### Case Prediction Page
-![Chatbot Interface](Screenshots/Screenshot_prediction.png)
+![Chatbot Interface](Screenshots/Screenshot_prediction.jpeg)
 
 - - -
 
