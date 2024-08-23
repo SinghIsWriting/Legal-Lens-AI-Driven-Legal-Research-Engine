@@ -1,0 +1,6 @@
+venv
+solution-problem.txt
+legalSupport/__pycache__/
+Reference Files
+researchEngine/__pycache__/
+researchEngine/migrations/__pycache__/

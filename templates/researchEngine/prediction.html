@@ -1,0 +1,61 @@
+<!-- templates/search.html -->
+{% extends 'researchEngine/base.html' %}
+
+{% block title %}Predicted Outcomes - AI Legal Research{% endblock %}
+
+{% block cssblock %}
+.card-body{
+    background-color: #303030;
+    border-radius: 20px;
+}
+{% endblock cssblock %}
+
+{% block content %}
+<div class="card bg-dark">
+    <!-- Right Section (Main Content) -->
+    <div class="card-body right-section active" id="case-prediction">
+        <h2>Case Prediction</h2>
+        <form id="case-prediction-form" class="mt-4">
+            <div class="mb-3">
+                <label for="case-summary" class="form-label">Enter Case Summary:</label>
+                <textarea class="form-control" id="case-summary" rows="5" placeholder="Provide a brief summary of the case..."></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="case-type" class="form-label">Select Case Type:</label>
+                <select class="form-control" id="case-type">
+                    <option selected disabled>Choose case type...</option>
+                    <option value="civil">Civil</option>
+                    <option value="criminal">Criminal</option>
+                    <option value="corporate">Corporate</option>
+                    <option value="family">Family</option>
+                    <option value="others">Others</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="jurisdiction" class="form-label">Select Jurisdiction:</label>
+                <select class="form-control" id="jurisdiction">
+                    <option selected disabled>Choose jurisdiction...</option>
+                    <option value="district">District Court</option>
+                    <option value="high">High Court</option>
+                    <option value="supreme">Supreme Court</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-success">Predict Outcome</button>
+        </form>
+
+        <!-- Prediction Result -->
+        <div id="prediction-result" class="mt-5">
+            <h5>Prediction Result:</h5>
+            <div class="alert alert-info">
+                <strong>Predicted Outcome:</strong> <span id="predicted-outcome">Pending...
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ex ducimus, minima est earum quos soluta maxime? Quaerat dicta natus sint numquam voluptates et eveniet recusandae ea praesentium totam culpa veniam odio sit reiciendis, exercitationem a impedit, optio neque minima ex. Nesciunt, neque ipsum atque asperiores praesentium quod optio ea cum, reiciendis repellendus officiis illo suscipit. Omnis aliquid blanditiis dolores est porro reprehenderit voluptas tenetur dolorum doloremque quibusdam delectus adipisci optio illo, excepturi consequatur, laboriosam beatae cupiditate alias. Reprehenderit sequi quis, corporis libero consequatur ipsa mollitia. Officiis, quos tempora numquam accusamus odio maxime odit itaque, aliquam architecto laboriosam natus quae cupiditate, maiores mollitia. Asperiores voluptas dolore est sequi maxime accusamus dolorum dicta eos eaque ratione quo earum, autem non mollitia nulla possimus dolores qui dolorem, alias omnis, sed ipsa blanditiis. Atque repellat nobis nisi aliquid aperiam provident iusto minima quasi magnam? Similique deleniti voluptatum praesentium vero totam dolores ab doloremque odio amet tempore, numquam excepturi maxime et eligendi nostrum veritatis consectetur ex. Necessitatibus quas voluptatum voluptas aut cum perspiciatis ratione, excepturi iure at tempora animi enim vero eos quis similique modi ducimus veritatis culpa corporis illo ad ex? Nostrum dolor assumenda similique corporis at est qui tempore quia laboriosam illum? Unde exercitationem soluta quo quos aliquam distinctio, ea minus ab laudantium aliquid ducimus tenetur at enim minima iure accusantium voluptas eaque fugit, officia fugiat tempore temporibus quae iste! Tempora ipsa, tempore sed rerum ea natus sit, ad hic rem, quos dolore assumenda doloremque? Omnis at voluptate, hic recusandae distinctio vel cupiditate eum, amet, explicabo nobis ea! Suscipit facilis debitis, sequi, sunt iure alias ad magnam vitae sit expedita ea, odio vel minus aliquid dolores numquam velit reiciendis! Rem fugiat doloremque modi consectetur possimus earum omnis qui facere tempore, magnam culpa adipisci maiores eum fuga, itaque quae, vitae optio voluptates ab suscipit repudiandae asperiores fugit. Porro iste delectus commodi veniam repudiandae, odit ab harum? Repellendus expedita aut modi consectetur temporibus esse itaque rerum. Beatae, maiores obcaecati porro, rem numquam odio deleniti aut inventore dolor architecto praesentium esse libero eveniet. Perferendis in ab molestias sit numquam odio rerum minus iste voluptas, consequatur voluptatem dolores amet ducimus voluptates eveniet error fuga animi molestiae quibusdam? Voluptates vel eligendi tempora mollitia recusandae repudiandae distinctio possimus blanditiis. Deserunt, temporibus officia! Qui necessitatibus placeat distinctio, doloremque eveniet, doloribus aut, suscipit cumque alias repellendus dolor. Assumenda ex cum tempore reprehenderit soluta repellat minima hic. Deleniti officia recusandae nulla velit eaque ullam necessitatibus maxime odit non esse totam impedit, expedita quaerat aliquam earum voluptatem dolorum explicabo dolore modi cum, nesciunt eligendi libero! Ratione quasi odit sit cumque ex iste vitae delectus deserunt, exercitationem, maxime magnam culpa atque eaque tempore numquam distinctio! Dignissimos, dicta? Autem, qui nemo? Iste molestias suscipit quisquam praesentium eaque dolores velit nihil fuga maiores consequatur consequuntur distinctio asperiores itaque unde doloremque natus totam nisi neque explicabo, blanditiis ab at repudiandae. Ex possimus amet at ut pariatur! Distinctio fugiat adipisci quibusdam? Id culpa, illo nihil eveniet distinctio similique deleniti est ut doloribus sed sapiente, explicabo voluptatum et.
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

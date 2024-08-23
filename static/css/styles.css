@@ -1,0 +1,24 @@
+/* static/css/styles.css */
+
+body.bg-dark .navbar {
+    background-color: #343a40;
+}
+
+.left-section {
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.left-section .top-sections {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.left-section .top-sections li{
+    background: #4a4a4a;
+    border-radius: 6px;
+    padding: 6px;
+}

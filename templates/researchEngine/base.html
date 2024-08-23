@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}AI Research Engine{% endblock %}</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Optional: FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="{% static "css/styles.css" %}">
+
+    <style>
+        .left-section {
+            height: 93vh;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-between;
+            padding: 0px 0.5rem 0.8rem 0.5rem;
+        }
+
+        .left-section .top-sections {
+            flex-grow: 1;
+            width: 100%;
+            background-color: #303030;
+            border-radius: 8px;
+        }
+
+        .left-section .top-sections li{
+            background-color: #4a4a4a;
+            border-radius: 6px;
+            padding: 6px;
+            margin: 6px;
+            cursor: pointer;
+            transition: background-color 0.5s ease-in;
+        }
+        .left-section .top-sections li:hover{
+            background: #535353;
+            font-weight: 700px;
+        }
+        .active {
+            background-color: #007bff;
+            color: white;
+        }
+        .right-section{
+            height: 92vh;
+            overflow-y: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+        .right-section::-webkit-scrollbar {
+            display: none;
+        }
+        .user{
+            cursor: pointer;
+        }
+        .user:hover{
+            font-weight: 500;
+        }
+        .webtitle:hover{
+            font-weight: 600;
+        }
+        .divider{
+            width: 100%;
+            height: 2px;
+            background-color: #303030;
+        }
+        .left-section .top-sections .section-link{
+            background-color: black;
+        }
+
+
+        {% block cssblock %}{% endblock cssblock %}
+    </style>
+</head>
+
+<body class="bg-dark">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand cursor webtitle" href="/">
+            <i class="fas fa-balance-scale"></i> AI Legal Research
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <select class="form-control">
+                        <option value="en">English</option>
+                        <option value="fr">French</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="divider"></div>
+
+    <!-- Main Content -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-2 bg-dark text-white left-section">
+                {% block sidebar %}
+                <!-- Sidebar content -->
+                <ul class="nav flex-column top-sections">
+                    <li class="nav-item {% if request.path == '/upload/' %}section-link{% endif %}">
+                        <a href="{% url "upload_document" %}" class="nav-link text-white" id="upload-docs">Upload Documents</a>
+                    </li>
+                    <li class="nav-item {% if request.path == '/query/' %}section-link{% endif %}">
+                        <a href="{% url "query" %}" class="nav-link text-white" id="legal-queries">Legal Queries</a>
+                    </li>
+                    <li class="nav-item {% if request.path == '/prediction/' %}section-link{% endif %}">
+                        <a href='{% url "prediction" %}' class="nav-link text-white" id="case-prediction">Case Prediction</a>
+                    </li>
+                </ul>
+                <div class="user-info mt-4">
+                    <p class="user"><i class="fas fa-user mr-2"></i><span id="username">Vardhan Singh Suryavanshi</span></p>
+                    <button class="btn btn-outline-light">Logout<i class="fas fa-arrow-right ml-2"></i></button>
+                </div>
+                {% endblock %}
+            </div>
+
+            <!-- Main Section -->
+            <div class="col-md-10 right-section overflow-auto">
+                {% block content %}
+                <!-- Dynamic content goes here -->
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+
+    {% block extra_scripts %}
+    
+    {% endblock %}
+
+    </script>
+    
+</body>
+
+</html>
