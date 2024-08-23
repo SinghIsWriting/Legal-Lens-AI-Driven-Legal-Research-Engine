@@ -17,7 +17,7 @@
 
 ## **Project Overview**
 
-**LexAssist Pro** is an AI-powered legal research platform tailored for commercial courts. The platform combines the efficiency of AI with intuitive design to simplify legal research, case analysis, and prediction. Lawyers, researchers, and court officials can upload legal documents, seek precise answers to legal questions, and get case predictions within seconds.
+**Legal-Lens: AI-Driven Legal Research Engine** is an AI-powered legal research platform tailored for commercial courts. The platform combines the efficiency of AI with intuitive design to simplify legal research, case analysis, and prediction. Lawyers, researchers, and court officials can upload legal documents, seek precise answers to legal questions, and get case predictions within seconds.
 
 ## **Features**
 - **Legal Document Upload & Analysis**: Upload legal documents (PDF, DOC) and get quick insights and summaries.
