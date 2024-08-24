@@ -71,6 +71,19 @@
         .left-section .top-sections .section-link{
             background-color: black;
         }
+        .user-info{
+            width: 100%;
+            padding: 12px;
+            border-radius: 6px;
+            background: #303030;
+        }
+        .user-info a{
+            text-decoration: none;
+            color: white;
+        }
+        .user-info a:hover{
+            color: black;
+        }
 
 
         {% block cssblock %}{% endblock cssblock %}
@@ -88,8 +101,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item active"><a class="nav-link" href="/about/">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
                 <li class="nav-item">
                     <select class="form-control">
@@ -121,9 +134,14 @@
                         <a href='{% url "prediction" %}' class="nav-link text-white" id="case-prediction">Case Prediction</a>
                     </li>
                 </ul>
-                <div class="user-info mt-4">
-                    <p class="user"><i class="fas fa-user mr-2"></i><span id="username">Vardhan Singh Suryavanshi</span></p>
-                    <button class="btn btn-outline-light">Logout<i class="fas fa-arrow-right ml-2"></i></button>
+                <div class="user-info mt-1">
+                    {% if request.user.is_authenticated %}
+                    <p class="user"><i class="fas fa-user mr-2"></i><span id="username">{{request.user.username}}</span></p>
+                    <button class="btn btn-outline-light"><a href="/logout/">Logout</a><i class="fas fa-arrow-right ml-2"></i></button>
+                    {% else %}
+                    <button class="btn btn-outline-light"><a href="/login/">Login</a><i class="fas fa-arrow-left ml-2"></i></button>
+                    {% endif %}
+                    
                 </div>
                 {% endblock %}
             </div>

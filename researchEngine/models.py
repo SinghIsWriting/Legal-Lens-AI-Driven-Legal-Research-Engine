@@ -1,7 +1,5 @@
 from django.db import models
 
-from django.db import models
-
 class LegalDocument(models.Model):
     title = models.CharField(max_length=455)
     content = models.TextField()

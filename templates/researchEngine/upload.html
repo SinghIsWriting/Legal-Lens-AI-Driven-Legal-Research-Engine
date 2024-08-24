@@ -24,8 +24,8 @@
 <div class="card bg-dark mt-3">
     <!-- Upload Document Section -->
     <div class="card-body bg-dark upload-section">
-        <h3 class="mb-4">Upload Your Legal Document</h3>
-        <form action="/upload-document/" method="POST" enctype="multipart/form-data">
+        <h3 class="mb-4">Upload Your Case Document</h3>
+        <form id="upload-document-form" action="/upload/" method="POST" enctype="multipart/form-data">
             {% csrf_token %}
             <div class="mb-3">
                 <label for="document-file" class="form-label">Select Document (PDF or DOCX):</label>
@@ -39,4 +39,53 @@
         </form>
     </div>
 </div>
+
+<!-- Result Display -->
+<div id="upload-result" class="container mt-3"></div>
 {% endblock content %}
+
+{% block extra_scripts %}
+
+document.getElementById('upload-document-form').addEventListener('submit', async function(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    const form = document.getElementById('upload-document-form');
+    const formData = new FormData(form);
+
+    // Send the form data using fetch
+    try {
+        const response = await fetch('/upload/', {
+            method: 'POST',
+            headers: {
+                'X-CSRFToken': '{{ csrf_token }}', // Make sure to include the CSRF token for Django
+            },
+            body: formData,
+        });
+
+        // Check if the response is OK
+        if (response.ok) {
+            const jsonResponse = await response.json();
+            document.getElementById('upload-result').innerHTML = `
+                <div class="alert alert-success">
+                    <strong>Success!</strong> ${jsonResponse.message} <a href="/query/" class="alert-link">Click here</a> to analyze the document and ask more details about it.
+                </div>
+            `;
+            document.getElementById('document-description').textContent = ''
+        } else {
+            const errorResponse = await response.json();
+            document.getElementById('upload-result').innerHTML = `
+                <div class="alert alert-danger">
+                    <strong>Error:</strong> ${errorResponse.error}
+                </div>
+            `;
+        }
+    } catch (error) {
+        document.getElementById('upload-result').innerHTML = `
+            <div class="alert alert-danger">
+                <strong>Network Error:</strong> Please try again later.
+            </div>
+        `;
+    }
+});
+
+{% endblock extra_scripts %}

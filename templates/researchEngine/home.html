@@ -122,11 +122,11 @@
             <div class="chat-box p-3">
                 <!-- Chatbot conversation area -->
                 <div id="chat-history" class="mb-3 text-light">
-                    
+
                     <!-- Messages will appear here -->
                      <div class="container intro">
                         <i class="fas fa-balance-scale"></i>
-                        <h1>Hello, Vardhan Singh Suryavanshi</h1>
+                        <h1>Hello, {{request.user.username}}</h1>
                         <h2>How can I help you today?</h2>
                      </div>
                      
@@ -151,7 +151,8 @@
         msgBox.scrollTo(0, msgBox.scrollHeight);
     }, 100);
 
-    document.getElementById('chat-submit').addEventListener('click', async function() {
+    // Function to send the input data
+    async function sendQuery() {
         const inputField = document.getElementById('chat-input');
         const query = inputField.value.trim();
         
@@ -182,7 +183,7 @@
 
             if (response.ok) {
                 const data = await response.json();
-                const botResponse = data.response;
+                const botResponse = data.response; // Assuming the backend sends a JSON with a "response" key
 
                 // Append the bot response to chat history
                 const botMessageDiv = document.createElement('div');
@@ -197,6 +198,17 @@
             }
         } catch (error) {
             console.error('Error:', error);
+        }
+    }
+
+    // Event listener for the send button click
+    document.getElementById('chat-submit').addEventListener('click', sendQuery);
+
+    // Event listener for the Enter key press
+    document.getElementById('chat-input').addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            event.preventDefault(); // Prevent the form from submitting in the traditional way
+            sendQuery();
         }
     });
 
