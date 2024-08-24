@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+{% load i18n %}
 <html lang="en">
 {% load static %}
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Landing Page</title>
+    <title>{% trans "Project Landing Page" %}</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for Icons -->
@@ -150,21 +151,31 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="/"><i class="fas fa-balance-scale mr-2"></i>AI Research Engine</a>
+            <a class="navbar-brand" href="/"><i class="fas fa-balance-scale mr-2"></i>{% trans "AI Research Engine" %}</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="/home/">Home</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="/about/">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/home/">{% trans "Home" %}</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="/about/">{% trans "About" %}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact/">{% trans "Contact" %}</a></li>
                     <li class="nav-item ml-2">
-                        <select class="form-control">
-                            <option value="en">English</option>
-                            <option value="hi">Hindi</option>
-                        </select>
+                        <form action="{% url "set_language" %}" method="post" name='language-form'>
+                            {% csrf_token %}
+                            <select class="form-control" name='language' onchange="this.form.submit()">
+                                {% get_current_language as LANGUAGE_CODE %}
+                                {% get_available_languages as LANGUAGES %}
+                                {% get_language_info_list for LANGUAGES as languages %}
+                                {% for language in languages %}
+                                <option value="{{ language.code }}"
+                                    {% if language.code == LANGUAGE_CODE %}selected{% endif %}>
+                                    {{ language.name_local | title }}
+                                </option>
+                                {% endfor %}
+                            </select>
+                        </form>
                     </li>
                 </ul>
             </div>
@@ -173,39 +184,35 @@
 
     <!-- Hero Section -->
     <section class="hero-section">
-        <h1 class="hero-title">AI-Driven Research Engine for Commercial Courts</h1>
-        <p class="hero-description">Empowering legal professionals with advanced AI tools for case prediction, document
-            analysis, and legal queries.</p>
-        <a href="/register/" class="btn btn-get-started">Get Started</a>
+        <h1 class="hero-title">{% trans "AI-Driven Research Engine for Commercial Courts" %}</h1>
+        <p class="hero-description">{% trans "Empowering legal professionals with advanced AI tools for case prediction, document analysis, and legal queries." %}</p>
+        <a href="/register/" class="btn btn-get-started">{% trans "Get Started" %}</a>
     </section>
 
     <!-- Features Section -->
     <section class="features-section" id="features">
         <div class="container">
-            <h2>Key Features</h2>
+            <h2>{% trans "Key Features" %}</h2>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="feature">
                         <i class="fas fa-file-upload feature-icon"></i>
-                        <h3 class="feature-title"><a class="nav-link text-light" href="/upload/">Document Upload</a></h3>
-                        <p class="feature-description">Easily upload legal documents in PDF or DOC format for analysis
-                            and insights.</p>
+                        <h3 class="feature-title"><a class="nav-link text-light" href="/upload/">{% trans "Document Upload" %}</a></h3>
+                        <p class="feature-description">{% trans "Easily upload legal documents in PDF or DOC format for analysis and insights." %}</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="feature">
                         <i class="fas fa-balance-scale feature-icon"></i>
-                        <h3 class="feature-title"><a class="nav-link text-light" href="/prediction/">Case Prediction</a></h3>
-                        <p class="feature-description">Leverage AI to predict case outcomes based on historical data and
-                            trends.</p>
+                        <h3 class="feature-title"><a class="nav-link text-light" href="/prediction/">{% trans "Case Prediction" %}</a></h3>
+                        <p class="feature-description">{% trans "Leverage AI to predict case outcomes based on historical data and trends." %}</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="feature">
                         <i class="fas fa-comments feature-icon"></i>
-                        <h3 class="feature-title"><a class="nav-link text-light" href="/query/">Legal Queries</a></h3>
-                        <p class="feature-description">Ask detailed legal questions and get precise answers tailored to
-                            your needs.</p>
+                        <h3 class="feature-title"><a class="nav-link text-light" href="/query/">{% trans "Legal Queries" %}</a></h3>
+                        <p class="feature-description">{% trans "Ask detailed legal questions and get precise answers tailored to your needs." %}</p>
                     </div>
                 </div>
             </div>
@@ -214,8 +221,8 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2024 Legal Lens: AI-Driven Research Engine. All rights reserved.</p>
-        <p><a href="/contact/">Contact Us</a> | <a href="/about/">About</a></p>
+        <p>&copy; 2024 {% trans "Legal Lens: AI-Driven Research Engine. All rights reserved." %}</p>
+        <p><a href="/contact/">{% trans "Contact Us" %}</a> | <a href="/about/">{% trans "About" %}</a></p>
     </footer>
 
     <!-- Bootstrap and jQuery -->

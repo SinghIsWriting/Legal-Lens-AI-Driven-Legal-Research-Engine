@@ -1,7 +1,7 @@
 <!-- templates/search.html -->
 {% extends 'researchEngine/base.html' %}
-
-{% block title %}Predicted Outcomes - AI Legal Research{% endblock %}
+{% load i18n %}
+{% block title %}{% trans "Predicted Outcomes - AI Legal Research" %}{% endblock %}
 
 {% block cssblock %}
 .card-body{
@@ -14,41 +14,41 @@
 <div class="card bg-dark">
     <!-- Right Section (Main Content) -->
     <div class="card-body right-section active" id="case-prediction">
-        <h2>Case Prediction</h2>
+        <h2>{% trans "Case Prediction" %}</h2>
         <form id="case-prediction-form" class="mt-4">
             <div class="mb-3">
-                <label for="case-summary" class="form-label">Enter Case Summary:</label>
-                <textarea class="form-control" id="case-summary" rows="5" placeholder="Provide a brief summary of the case..."></textarea>
+                <label for="case-summary" class="form-label">{% trans "Enter Case Summary" %}:</label>
+                <textarea class="form-control" id="case-summary" rows="5" placeholder='{% trans "Provide a brief summary of the case" %}'></textarea>
             </div>
 
             <div class="mb-3">
-                <label for="case-type" class="form-label">Select Case Type:</label>
+                <label for="case-type" class="form-label">{% trans "Select Case Type" %}:</label>
                 <select class="form-control" id="case-type">
-                    <option selected disabled>Choose case type...</option>
-                    <option value="civil">Civil</option>
-                    <option value="criminal">Criminal</option>
-                    <option value="corporate">Corporate</option>
-                    <option value="family">Family</option>
-                    <option value="others">Others</option>
+                    <option selected disabled> {% trans "Choose case type" %}...</option>
+                    <option value="civil">{% trans "Civil" %}</option>
+                    <option value="criminal">{% trans "Criminal" %}</option>
+                    <option value="corporate">{% trans "Corporate" %}</option>
+                    <option value="family">{% trans "Family" %}</option>
+                    <option value="others">{% trans "Others" %}</option>
                 </select>
             </div>
 
             <div class="mb-3">
-                <label for="jurisdiction" class="form-label">Select Jurisdiction:</label>
+                <label for="jurisdiction" class="form-label">{% trans "Select Jurisdiction" %}:</label>
                 <select class="form-control" id="jurisdiction">
-                    <option selected disabled>Choose jurisdiction...</option>
-                    <option value="district">District Court</option>
-                    <option value="high">High Court</option>
-                    <option value="supreme">Supreme Court</option>
+                    <option selected disabled>{% trans "Choose jurisdiction" %}...</option>
+                    <option value="district">{% trans "District Court" %}</option>
+                    <option value="high">{% trans "High Court" %}</option>
+                    <option value="supreme">{% trans "Supreme Court" %}</option>
                 </select>
             </div>
 
-            <button type="submit" class="btn btn-success">Predict Outcome</button>
+            <button type="submit" class="btn btn-success">{% trans "Predict Outcome" %}</button>
         </form>
 
         <!-- Prediction Result -->
         <div id="prediction-result" class="mt-5">
-            <h5>Prediction Result</h5>
+            <h5>{% trans "Prediction Result" %}</h5>
 
         </div>
     </div>

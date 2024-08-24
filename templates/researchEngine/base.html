@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+{% load i18n %}
 <html lang="en">
 {% load static %}
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}AI Research Engine{% endblock %}</title>
+    <title>{% block title %}{% trans "AI Research Engine" %}{% endblock %}</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Optional: FontAwesome for icons -->
@@ -94,21 +95,30 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand cursor webtitle" href="/">
-            <i class="fas fa-balance-scale mr-2"></i> AI Legal Research
-        </a>
+            <i class="fas fa-balance-scale mr-2"></i> {% trans "AI Legal Research" %}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="/home/">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/">{% trans "Home" %}</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about/">{% trans "About" %}</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact/">{% trans "Contact" %}</a></li>
                 <li class="nav-item">
-                    <select class="form-control">
-                        <option value="en">English</option>
-                        <option value="hi">Hindi</option>
-                    </select>
+                    <form action="{% url "set_language" %}" method="post" name='language-form'>
+                            {% csrf_token %}
+                            <select class="form-control" name='language' onchange="this.form.submit()">
+                                {% get_current_language as LANGUAGE_CODE %}
+                                {% get_available_languages as LANGUAGES %}
+                                {% get_language_info_list for LANGUAGES as languages %}
+                                {% for language in languages %}
+                                <option value="{{ language.code }}"
+                                    {% if language.code == LANGUAGE_CODE %}selected{% endif %}>
+                                    {{ language.name_local | title }}
+                                </option>
+                                {% endfor %}
+                            </select>
+                        </form>
                 </li>
             </ul>
         </div>
@@ -125,21 +135,21 @@
                 <!-- Sidebar content -->
                 <ul class="nav flex-column top-sections">
                     <li class="nav-item {% if request.path == '/upload/' %}section-link{% endif %}">
-                        <a href="{% url "upload_document" %}" class="nav-link text-white" id="upload-docs">Upload Documents</a>
+                        <a href="{% url "upload_document" %}" class="nav-link text-white" id="upload-docs">{% trans "Upload Documents" %}</a>
                     </li>
                     <li class="nav-item {% if request.path == '/query/' %}section-link{% endif %}">
-                        <a href="{% url "query" %}" class="nav-link text-white" id="legal-queries">Legal Queries</a>
+                        <a href="{% url "query" %}" class="nav-link text-white" id="legal-queries">{% trans "Legal Queries" %}</a>
                     </li>
                     <li class="nav-item {% if request.path == '/prediction/' %}section-link{% endif %}">
-                        <a href='{% url "prediction" %}' class="nav-link text-white" id="case-prediction">Case Prediction</a>
+                        <a href='{% url "prediction" %}' class="nav-link text-white" id="case-prediction">{% trans "Case Prediction" %}</a>
                     </li>
                 </ul>
                 <div class="user-info mt-1">
                     {% if request.user.is_authenticated %}
                     <p class="user"><i class="fas fa-user mr-2"></i><span id="username">{{request.user.username}}</span></p>
-                    <button class="btn btn-outline-light"><a href="/logout/">Logout</a><i class="fas fa-arrow-right ml-2"></i></button>
+                    <button class="btn btn-outline-light"><a href="/logout/">{% trans "Logout" %}</a><i class="fas fa-arrow-right ml-2"></i></button>
                     {% else %}
-                    <button class="btn btn-outline-light"><a href="/login/">Login</a><i class="fas fa-arrow-left ml-2"></i></button>
+                    <button class="btn btn-outline-light"><a href="/login/">{% trans "Login" %}</a><i class="fas fa-arrow-left ml-2"></i></button>
                     {% endif %}
                     
                 </div>

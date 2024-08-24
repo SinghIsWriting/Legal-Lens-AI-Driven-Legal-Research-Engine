@@ -40,8 +40,17 @@ from django.http import JsonResponse, HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.safestring import mark_safe
 from django.contrib.auth.decorators import login_required
+from django.utils.translation import activate, get_language
+from django.conf import settings 
 
 def landing_page(request):
+    if request.method == 'POST' and 'language' in request.POST:
+        print('POST LANGUAGE...')
+        lang_code = request.POST['language']
+        if lang_code in dict(settings.LANGUAGES):  # Validating the language code
+            print('LANGUAGE IS FOUND...', lang_code)
+            request.session[settings.LANGUAGE_SESSION_KEY] = lang_code
+            activate(lang_code)
     return render(request, 'ResearchEngine/landing_page.html')
 
 @login_required

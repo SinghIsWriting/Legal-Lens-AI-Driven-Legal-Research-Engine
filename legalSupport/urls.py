@@ -12,6 +12,7 @@ from django.contrib.auth import views as auth_views
 from .forms import UserPasswordResetForm, UserSetPasswordForm
 
 urlpatterns = [
+    path('i18n/', include('django.conf.urls.i18n')),
     path('admin/', admin.site.urls),
     # URL pattern for user registration page
     path('register/', views.register, name='register'),

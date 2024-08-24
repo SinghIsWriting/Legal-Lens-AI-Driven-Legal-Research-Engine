@@ -1,7 +1,7 @@
 <!-- templates/upload.html -->
 {% extends "researchEngine/base.html" %}
-
-{% block title %}Upload Legal Document - AI Legal Research{% endblock %}
+{% load i18n %}
+{% block title %}{% trans "Upload Legal Document" %} - {% trans "AI Legal Research" %}{% endblock %}
 
 {% block cssblock %}
 .card-body{
@@ -24,18 +24,18 @@
 <div class="card bg-dark mt-3">
     <!-- Upload Document Section -->
     <div class="card-body bg-dark upload-section">
-        <h3 class="mb-4">Upload Your Case Document</h3>
+        <h3 class="mb-4">{% trans "Upload Your Case Document" %}</h3>
         <form id="upload-document-form" action="/upload/" method="POST" enctype="multipart/form-data">
             {% csrf_token %}
             <div class="mb-3">
-                <label for="document-file" class="form-label">Select Document (PDF or DOCX):</label>
+                <label for="document-file" class="form-label">{% trans "Select Document (PDF or DOCX)" %}:</label>
                 <input type="file" class="form-control" id="document-file" name="document" accept=".pdf,.doc,.docx" required>
             </div>
             <div class="mb-3">
-                <label for="document-description" class="form-label">Document Description (optional):</label>
-                <textarea class="form-control" id="document-description" name="description" rows="4" placeholder="Add any relevant details..."></textarea>
+                <label for="document-description" class="form-label">{% trans "Document Description (optional)" %}:</label>
+                <textarea class="form-control" id="document-description" name="description" rows="4" placeholder='{% trans "Add any relevant details" %}'></textarea>
             </div>
-            <button type="submit" class="btn btn-secondary">Upload Document</button>
+            <button type="submit" class="btn btn-secondary">{% trans "Upload Document" %}</button>
         </form>
     </div>
 </div>

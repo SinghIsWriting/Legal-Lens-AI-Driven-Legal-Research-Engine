@@ -1,6 +1,7 @@
 {% extends 'researchEngine/base.html' %}
+{% load i18n %}
 
-{% block title %}Home - AI Legal Research{% endblock %}
+{% block title %} {% trans "Home" %} - {% trans "AI Legal Research" %} {% endblock %}
 
 {% block cssblock %}
 .card{
@@ -126,14 +127,14 @@
                     <!-- Messages will appear here -->
                      <div class="container intro">
                         <i class="fas fa-balance-scale"></i>
-                        <h1>Hello, {{request.user.username}}</h1>
-                        <h2>How can I help you today?</h2>
+                        <h1>{% trans "Hello" %}, {{request.user.username}}</h1>
+                        <h2>{% trans "How can I help you today" %}?</h2>
                      </div>
                      
                 </div>
                 <!-- Input area -->
                 <div class="input-group">
-                    <input type="text" id="chat-input" class="form-control" placeholder="Type your question...">
+                    <input type="text" id="chat-input" class="form-control" placeholder='{% trans "Type your question" %}...'>
                     <div class="input-group-append">
                         <button class="btn btn-secondary ml-1" id="chat-submit" type="button"><i class="fas fa-paper-plane"></i></button>
                     </div>

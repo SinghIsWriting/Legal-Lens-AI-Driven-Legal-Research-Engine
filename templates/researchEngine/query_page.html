@@ -1,6 +1,6 @@
 {% extends 'researchEngine/base.html' %}
-
-{% block title %}Legal Search - AI Legal Research{% endblock %}
+{% load i18n %}
+{% block title %}{% trans "Legal Search" %} - {% trans "AI Legal Research" %}{% endblock %}
 
 {% block cssblock %}
 .card{
@@ -143,19 +143,19 @@
         <!-- Default: Chatbot interface -->
         <div id="chat-interface">
             <div class="chat-box p-3">
-                <h3 class="text-light">Legal Information & Details</h3>
+                <h3 class="text-light">{% trans "Legal Queries and Details" %}</h3>
                 <form id="case-prediction-form" class="mt-1">
                     <div class="mb-3">
-                        <label for="case-type" class="form-label text-light">Select Search Type:</label>
+                        <label for="case-type" class="form-label text-light">{% trans "Select Search Type" %}:</label>
                         <select class="form-control" id="case-type">
-                            <option selected disabled>Choose search type...</option>
-                            <option value="statute">Statute Search</option>
-                            <option value="legal">Legal Search</option>
+                            <option selected disabled>{% trans "Choose search type" %}...</option>
+                            <option value="statute">{% trans "Statute Search" %}</option>
+                            <option value="legal">{% trans "Legal Search" %}</option>
                         </select>
                     </div>
                     <div class="mb-3">
-                        <label for="result-count" class="form-label text-light">Number of Results to Show:</label>
-                        <input type="number" class="form-control" value="10" id="result-count" name="result_count" placeholder="Enter number of results" min="1" max="100">
+                        <label for="result-count" class="form-label text-light">{% trans "Number of Results to Show" %}:</label>
+                        <input type="number" class="form-control" value="10" id="result-count" name="result_count" placeholder='{% trans "Enter number of results" %}' min="1" max="100">
                     </div>
                 </form>
                 <!-- Chatbot conversation area -->
@@ -163,20 +163,20 @@
                     <!-- Messages will appear here -->
                      <div class="container intro">
                         <i class="fas fa-balance-scale"></i>
-                        <h2>Hello, {{request.user.username}}</h2>
-                        <h3>How can I help you today?</h3>
+                        <h2>{% trans "Hello" %}, {{request.user.username}}</h2>
+                        <h3>{% trans "How can I help you today?" %}</h3>
                      </div>
                      <div class="container predefined-option my-2 mb-4">
                         <!-- Predefined options -->
-                        <button type="button" class="btn btn-secondary btn-lg predefined-btn">Provide summarization about the case uploaded with document.</button>
-                        <button type="button" class="btn btn-secondary btn-lg predefined-btn">Explain the statute, acts and section and other legal information related to the case file uploaded.</button>
-                        <button type="button" class="btn btn-secondary btn-lg predefined-btn">Provide the details about some similar cases like this one in the commercial court.</button>
+                        <button type="button" class="btn btn-secondary btn-lg predefined-btn">{% trans "Provide summarization about the case uploaded with document." %}</button>
+                        <button type="button" class="btn btn-secondary btn-lg predefined-btn">{% trans "Explain the statute, acts and section and other legal information related to the case file uploaded." %}</button>
+                        <button type="button" class="btn btn-secondary btn-lg predefined-btn">{% trans "Provide the details about some similar cases like this one in the commercial court." %}</button>
                      </div>
   
                 </div>
                 <!-- Input area -->
                 <div class="input-group">
-                    <input type="text" id="chat-input" class="form-control" placeholder="Type your question...">
+                    <input type="text" id="chat-input" class="form-control" placeholder='{% trans "Type your question" %}'>
                     <div class="input-group-append">
                         <button class="btn btn-secondary ml-1" id="chat-submit" type="button"><i class="fas fa-paper-plane"></i></button>
                     </div>

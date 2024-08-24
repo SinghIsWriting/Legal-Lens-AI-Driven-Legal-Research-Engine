@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+{% load i18n %}
 <html lang="en">
 {% load static %}
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>{% trans "About Us" %}</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for Icons -->
@@ -82,20 +83,30 @@
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/"><i class="fas fa-balance-scale mr-2"></i>AI Research Engine</a>
+        <a class="navbar-brand" href="/"><i class="fas fa-balance-scale mr-2"></i>{% trans "AI Research Engine" %}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="/home/">Home</a></li>
-                <li class="nav-item active"><a class="nav-link" href="/about/">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/">{% trans "Home" %}</a></li>
+                <li class="nav-item active"><a class="nav-link" href="/about/">{% trans "About" %}</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact/">{% trans "Contact" %}</a></li>
                 <li class="nav-item ml-2">
-                    <select class="form-control">
-                        <option value="en">English</option>
-                        <option value="hi">Hindi</option>
-                    </select>
+                    <form action="{% url "set_language" %}" method="post" name='language-form'>
+                            {% csrf_token %}
+                            <select class="form-control" name='language' onchange="this.form.submit()">
+                                {% get_current_language as LANGUAGE_CODE %}
+                                {% get_available_languages as LANGUAGES %}
+                                {% get_language_info_list for LANGUAGES as languages %}
+                                {% for language in languages %}
+                                <option value="{{ language.code }}"
+                                    {% if language.code == LANGUAGE_CODE %}selected{% endif %}>
+                                    {{ language.name_local | title }}
+                                </option>
+                                {% endfor %}
+                            </select>
+                        </form>
                 </li>
             </ul>
         </div>
@@ -104,56 +115,56 @@
     <!-- Hero Section -->
     <section class="hero-section bg-dark text-center">
         <div class="container">
-            <h1>About Us</h1>
-            <p>Welcome to our project. Here we provide innovative solutions and dedicated support to help you achieve your goals. Learn more about what we do and meet the team behind the scenes.</p>
+            <h1>{% trans "About Us" %}</h1>
+            <p>{% trans "Welcome to our project. Here we provide innovative solutions and dedicated support to help you achieve your goals. Learn more about what we do and meet the team behind the scenes." %}</p>
         </div>
     </section>
 
     <!-- Team Section -->
     <section class="container my-5">
-        <h2 class="text-center mb-4">Meet Our Team</h2>
+        <h2 class="text-center mb-4">{% trans "Meet Our Team" %}</h2>
         <div class="row">
             <!-- Team Member 1 -->
             <div class="col-md-4 team-member">
                 <img src="https://avatars.githubusercontent.com/u/122283853?v=4" alt="Team Member 1">
-                <h5>Abhishek Singh</h5>
-                <p>Team Member 1</p>
-                <p>Abhishek Singh is the visionary behind our project. With over 3 years of experience in Computer Science and Programming languages.</p>
+                <h5>{% trans "Abhishek Singh" %}</h5>
+                <p>{% trans "Team Member" %} 1</p>
+                <p>{% trans "Abhishek Singh is the visionary behind our project. With over 3 years of experience in Computer Science and Programming languages." %}</p>
             </div>
             <!-- Team Member 2 -->
             <div class="col-md-4 team-member">
                 <img src="{% static "images/user.png" %}" alt="Team Member 2">
-                <h5>Hirakjyoti Medhi</h5>
-                <p>Team Member 2</p>
-                <p>Jane leads our tech team, overseeing product development and ensuring our solutions are cutting-edge and reliable.</p>
+                <h5>{% trans "Hirakjyoti Medhi" %}</h5>
+                <p>{% trans "Team Member" %}r 2</p>
+                <p>{% trans "Jane leads our tech team, overseeing product development and ensuring our solutions are cutting-edge and reliable." %}</p>
             </div>
             <!-- Team Member 3 -->
             <div class="col-md-4 team-member">
                 <img src="{% static "images/user.png" %}" alt="Team Member 3">
-                <h5>Biswajit Bera</h5>
-                <p>Team Member 3</p>
-                <p>Michael is responsible for creating intuitive and engaging user interfaces, making sure our products are both functional and beautiful.</p>
+                <h5>{% trans "Biswajit Bera" %}</h5>
+                <p>{% trans "Team Member" %} 3</p>
+                <p>{% trans "Michael is responsible for creating intuitive and engaging user interfaces, making sure our products are both functional and beautiful." %}</p>
             </div>
             <!-- Team Member 1 -->
             <div class="col-md-4 team-member">
                 <img src="{% static "images/user.png" %}" alt="Team Member 4">
-                <h5>Roshan Jha</h5>
-                <p>Team Member 4</p>
-                <p>Abhishek Singh is the visionary behind our project. With over 3 years of experience in Computer Science and Programming languages.</p>
+                <h5>{% trans "Roshan Jha" %}</h5>
+                <p>{% trans "Team Member" %} 4</p>
+                <p>{% trans "Roshan Jha is the visionary behind our project. With over 3 years of experience in Computer Science and Programming languages." %}</p>
             </div>
             <!-- Team Member 2 -->
             <div class="col-md-4 team-member">
                 <img src="{% static "images/user.png" %}" alt="Team Member 5">
-                <h5>Ashutosh Kumar</h5>
-                <p>Team Member 5</p>
-                <p>Jane leads our tech team, overseeing product development and ensuring our solutions are cutting-edge and reliable.</p>
+                <h5>{% trans "Ashutosh Kumar" %}</h5>
+                <p>{% trans "Team Member" %} 5</p>
+                <p>{% trans "Jane leads our tech team, overseeing product development and ensuring our solutions are cutting-edge and reliable." %}</p>
             </div>
             <!-- Team Member 3 -->
             <div class="col-md-4 team-member ">
                 <img src="{% static "images/user.png" %}" alt="Team Member 6">
-                <h5>Shruti Jaiswal</h5>
-                <p>Team Member 6</p>
-                <p>Michael is responsible for creating intuitive and engaging user interfaces, making sure our products are both functional and beautiful.</p>
+                <h5>{% trans "Shruti Jaiswal" %}</h5>
+                <p>{% trans "Team Member" %} 6</p>
+                <p>{% trans "Michael is responsible for creating intuitive and engaging user interfaces, making sure our products are both functional and beautiful." %}</p>
             </div>
         </div>
     </section>
@@ -161,11 +172,11 @@
     <!-- Contact Section -->
     <section class="contact-info text-center">
         <div class="container">
-            <h2>Contact Us</h2>
-            <p>Have questions or need support? Reach out to us at:</p>
-            <p>Email: <a href="mailto:support@yourproject.com">support@yourproject.com</a></p>
-            <p>Phone: <a href="tel:+1234567890">+911234567890</a></p>
-            <p>Address: Indian Institute of Technology (Indian School of Mines) Dhanbad, Jharkhand, India</p>
+            <h2>{% trans "Contact Us" %}</h2>
+            <p>{% trans "Have questions or need support? Reach out to us at" %}:</p>
+            <p>{% trans "Email" %}: <a href="mailto:support@yourproject.com">support@yourproject.com</a></p>
+            <p>{% trans "Phone" %}: <a href="tel:+1234567890">+911234567890</a></p>
+            <p>{% trans "Address: Indian Institute of Technology (Indian School of Mines) Dhanbad, Jharkhand, India" %}</p>
         </div>
     </section>
 

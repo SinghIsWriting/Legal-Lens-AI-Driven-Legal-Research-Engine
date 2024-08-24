@@ -1,0 +1,556 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-25 01:28+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\legalSupport\settings.py:104
+msgid "English"
+msgstr ""
+
+#: .\legalSupport\settings.py:105
+msgid "Hindi"
+msgstr ""
+
+#: .\legalSupport\settings.py:106
+msgid "Tamil"
+msgstr ""
+
+#: .\templates\legalSupport\login.html:8
+#: .\templates\legalSupport\login.html:158
+#: .\templates\legalSupport\login.html:163
+#: .\templates\legalSupport\password_reset_complete.html:70
+#: .\templates\legalSupport\password_reset_form.html:169
+#: .\templates\legalSupport\register.html:185
+#: .\templates\researchEngine\base.html:153
+msgid "Login"
+msgstr ""
+
+#: .\templates\legalSupport\login.html:117
+#: .\templates\legalSupport\password_reset_complete.html:35
+#: .\templates\legalSupport\password_reset_confirm.html:117
+#: .\templates\legalSupport\password_reset_done.html:36
+#: .\templates\legalSupport\password_reset_form.html:117
+#: .\templates\legalSupport\register.html:116
+#: .\templates\researchEngine\about.html:86
+#: .\templates\researchEngine\base.html:8
+#: .\templates\researchEngine\contact.html:62
+#: .\templates\researchEngine\landing_page.html:154
+msgid "AI Research Engine"
+msgstr ""
+
+#: .\templates\legalSupport\login.html:123
+#: .\templates\legalSupport\password_reset_complete.html:41
+#: .\templates\legalSupport\password_reset_confirm.html:123
+#: .\templates\legalSupport\password_reset_done.html:42
+#: .\templates\legalSupport\password_reset_form.html:123
+#: .\templates\legalSupport\register.html:122
+#: .\templates\researchEngine\about.html:92
+#: .\templates\researchEngine\base.html:105
+#: .\templates\researchEngine\contact.html:68
+#: .\templates\researchEngine\home.html:4
+#: .\templates\researchEngine\landing_page.html:161
+msgid "Home"
+msgstr ""
+
+#: .\templates\legalSupport\login.html:124
+#: .\templates\legalSupport\password_reset_complete.html:42
+#: .\templates\legalSupport\password_reset_complete.html:43
+#: .\templates\legalSupport\password_reset_confirm.html:124
+#: .\templates\legalSupport\password_reset_done.html:43
+#: .\templates\legalSupport\password_reset_form.html:124
+#: .\templates\legalSupport\register.html:123
+#: .\templates\researchEngine\about.html:93
+#: .\templates\researchEngine\base.html:106
+#: .\templates\researchEngine\contact.html:69
+#: .\templates\researchEngine\landing_page.html:162
+#: .\templates\researchEngine\landing_page.html:225
+msgid "About"
+msgstr ""
+
+#: .\templates\legalSupport\login.html:125
+#: .\templates\legalSupport\password_reset_confirm.html:125
+#: .\templates\legalSupport\password_reset_done.html:44
+#: .\templates\legalSupport\password_reset_form.html:125
+#: .\templates\legalSupport\register.html:124
+#: .\templates\researchEngine\about.html:94
+#: .\templates\researchEngine\base.html:107
+#: .\templates\researchEngine\contact.html:70
+#: .\templates\researchEngine\landing_page.html:163
+msgid "Contact"
+msgstr ""
+
+#: .\templates\legalSupport\login.html:151
+#: .\templates\legalSupport\password_reset_form.html:151
+#: .\templates\legalSupport\register.html:150
+#: .\templates\researchEngine\landing_page.html:187
+msgid "AI-Driven Research Engine for Commercial Courts"
+msgstr ""
+
+#: .\templates\legalSupport\login.html:152
+#: .\templates\legalSupport\password_reset_confirm.html:152
+#: .\templates\legalSupport\password_reset_form.html:152
+#: .\templates\legalSupport\register.html:151
+#: .\templates\researchEngine\landing_page.html:188
+msgid ""
+"Empowering legal professionals with advanced AI tools for case prediction, "
+"document analysis, and legal queries."
+msgstr ""
+
+#: .\templates\legalSupport\login.html:161
+msgid "Username"
+msgstr ""
+
+#: .\templates\legalSupport\login.html:162
+msgid "Password"
+msgstr ""
+
+#: .\templates\legalSupport\login.html:165
+msgid "Forgot Password?"
+msgstr ""
+
+#: .\templates\legalSupport\login.html:172
+msgid "Don't have an account"
+msgstr ""
+
+#: .\templates\legalSupport\login.html:172
+msgid "Sign Up"
+msgstr ""
+
+#: .\templates\legalSupport\password_reset_complete.html:8
+#: .\templates\legalSupport\password_reset_complete.html:68
+msgid "Password Reset Complete"
+msgstr ""
+
+#: .\templates\legalSupport\password_reset_complete.html:69
+msgid ""
+"Your password has been reset. You can now log in with your new password."
+msgstr ""
+
+#: .\templates\legalSupport\password_reset_complete.html:70
+msgid "Log in with your new password"
+msgstr ""
+
+#: .\templates\legalSupport\password_reset_confirm.html:8
+msgid "Password Reset Confirm"
+msgstr ""
+
+#: .\templates\legalSupport\password_reset_confirm.html:151
+msgid "AI-Driven Research Engine for Commercial Court"
+msgstr ""
+
+#: .\templates\legalSupport\password_reset_confirm.html:158
+msgid "Confirm Reset password"
+msgstr ""
+
+#: .\templates\legalSupport\password_reset_confirm.html:162
+msgid "Submit"
+msgstr ""
+
+#: .\templates\legalSupport\password_reset_done.html:8
+msgid "Password Reset Done"
+msgstr ""
+
+#: .\templates\legalSupport\password_reset_done.html:69
+msgid "Password Reset Sent!"
+msgstr ""
+
+#: .\templates\legalSupport\password_reset_done.html:70
+msgid "We've sent an email to your registered email"
+msgstr ""
+
+#: .\templates\legalSupport\password_reset_done.html:70
+msgid "with a link to reset your password."
+msgstr ""
+
+#: .\templates\legalSupport\password_reset_done.html:71
+msgid ""
+"If you don't receive the email, please check your spam folder or try again."
+msgstr ""
+
+#: .\templates\legalSupport\password_reset_form.html:8
+msgid "Password Reset Form"
+msgstr ""
+
+#: .\templates\legalSupport\password_reset_form.html:158
+msgid "Reset password"
+msgstr ""
+
+#: .\templates\legalSupport\password_reset_form.html:169
+msgid "Don't want to reset your password?"
+msgstr ""
+
+#: .\templates\legalSupport\register.html:8
+#: .\templates\researchEngine\about.html:175
+#: .\templates\researchEngine\contact.html:8
+#: .\templates\researchEngine\contact.html:106
+#: .\templates\researchEngine\landing_page.html:225
+msgid "Contact Us"
+msgstr ""
+
+#: .\templates\legalSupport\register.html:157
+msgid "Register User"
+msgstr ""
+
+#: .\templates\legalSupport\register.html:176
+msgid "Register"
+msgstr ""
+
+#: .\templates\legalSupport\register.html:185
+msgid "Already have an account?"
+msgstr ""
+
+#: .\templates\researchEngine\about.html:8
+#: .\templates\researchEngine\about.html:118
+msgid "About Us"
+msgstr ""
+
+#: .\templates\researchEngine\about.html:119
+msgid ""
+"Welcome to our project. Here we provide innovative solutions and dedicated "
+"support to help you achieve your goals. Learn more about what we do and meet "
+"the team behind the scenes."
+msgstr ""
+
+#: .\templates\researchEngine\about.html:125
+msgid "Meet Our Team"
+msgstr ""
+
+#: .\templates\researchEngine\about.html:130
+msgid "Abhishek Singh"
+msgstr ""
+
+#: .\templates\researchEngine\about.html:131
+#: .\templates\researchEngine\about.html:138
+#: .\templates\researchEngine\about.html:145
+#: .\templates\researchEngine\about.html:152
+#: .\templates\researchEngine\about.html:159
+#: .\templates\researchEngine\about.html:166
+msgid "Team Member"
+msgstr ""
+
+#: .\templates\researchEngine\about.html:132
+msgid ""
+"Abhishek Singh is the visionary behind our project. With over 3 years of "
+"experience in Computer Science and Programming languages."
+msgstr ""
+
+#: .\templates\researchEngine\about.html:137
+msgid "Hirakjyoti Medhi"
+msgstr ""
+
+#: .\templates\researchEngine\about.html:139
+#: .\templates\researchEngine\about.html:160
+msgid ""
+"Jane leads our tech team, overseeing product development and ensuring our "
+"solutions are cutting-edge and reliable."
+msgstr ""
+
+#: .\templates\researchEngine\about.html:144
+msgid "Biswajit Bera"
+msgstr ""
+
+#: .\templates\researchEngine\about.html:146
+#: .\templates\researchEngine\about.html:167
+msgid ""
+"Michael is responsible for creating intuitive and engaging user interfaces, "
+"making sure our products are both functional and beautiful."
+msgstr ""
+
+#: .\templates\researchEngine\about.html:151
+msgid "Roshan Jha"
+msgstr ""
+
+#: .\templates\researchEngine\about.html:153
+msgid ""
+"Roshan Jha is the visionary behind our project. With over 3 years of "
+"experience in Computer Science and Programming languages."
+msgstr ""
+
+#: .\templates\researchEngine\about.html:158
+msgid "Ashutosh Kumar"
+msgstr ""
+
+#: .\templates\researchEngine\about.html:165
+msgid "Shruti Jaiswal"
+msgstr ""
+
+#: .\templates\researchEngine\about.html:176
+msgid "Have questions or need support? Reach out to us at"
+msgstr ""
+
+#: .\templates\researchEngine\about.html:177
+#: .\templates\researchEngine\contact.html:98
+#: .\templates\researchEngine\contact.html:113
+msgid "Email"
+msgstr ""
+
+#: .\templates\researchEngine\about.html:178
+#: .\templates\researchEngine\contact.html:99
+msgid "Phone"
+msgstr ""
+
+#: .\templates\researchEngine\about.html:179
+msgid ""
+"Address: Indian Institute of Technology (Indian School of Mines) Dhanbad, "
+"Jharkhand, India"
+msgstr ""
+
+#: .\templates\researchEngine\base.html:98
+#: .\templates\researchEngine\home.html:4
+#: .\templates\researchEngine\query_page.html:3
+#: .\templates\researchEngine\upload.html:4
+msgid "AI Legal Research"
+msgstr ""
+
+#: .\templates\researchEngine\base.html:139
+msgid "Upload Documents"
+msgstr ""
+
+#: .\templates\researchEngine\base.html:142
+#: .\templates\researchEngine\landing_page.html:214
+msgid "Legal Queries"
+msgstr ""
+
+#: .\templates\researchEngine\base.html:145
+#: .\templates\researchEngine\landing_page.html:207
+msgid "Case Prediction"
+msgstr ""
+
+#: .\templates\researchEngine\base.html:151
+msgid "Logout"
+msgstr ""
+
+#: .\templates\researchEngine\contact.html:97
+msgid "Contact Information"
+msgstr ""
+
+#: .\templates\researchEngine\contact.html:100
+msgid "Address"
+msgstr ""
+
+#: .\templates\researchEngine\contact.html:100
+msgid ""
+"Indian Institute of Technology (Indian School of Mines) Dhanbad, Jharkhand, "
+"India"
+msgstr ""
+
+#: .\templates\researchEngine\contact.html:109
+msgid "Name"
+msgstr ""
+
+#: .\templates\researchEngine\contact.html:117
+msgid "Message"
+msgstr ""
+
+#: .\templates\researchEngine\contact.html:120
+msgid "Send Message"
+msgstr ""
+
+#: .\templates\researchEngine\contact.html:131
+msgid "Our Location"
+msgstr ""
+
+#: .\templates\researchEngine\home.html:130
+#: .\templates\researchEngine\query_page.html:166
+msgid "Hello"
+msgstr ""
+
+#: .\templates\researchEngine\home.html:131
+msgid "How can I help you today"
+msgstr ""
+
+#: .\templates\researchEngine\home.html:137
+#: .\templates\researchEngine\query_page.html:179
+msgid "Type your question"
+msgstr ""
+
+#: .\templates\researchEngine\landing_page.html:8
+msgid "Project Landing Page"
+msgstr ""
+
+#: .\templates\researchEngine\landing_page.html:189
+msgid "Get Started"
+msgstr ""
+
+#: .\templates\researchEngine\landing_page.html:195
+msgid "Key Features"
+msgstr ""
+
+#: .\templates\researchEngine\landing_page.html:200
+msgid "Document Upload"
+msgstr ""
+
+#: .\templates\researchEngine\landing_page.html:201
+msgid ""
+"Easily upload legal documents in PDF or DOC format for analysis and insights."
+msgstr ""
+
+#: .\templates\researchEngine\landing_page.html:208
+msgid ""
+"Leverage AI to predict case outcomes based on historical data and trends."
+msgstr ""
+
+#: .\templates\researchEngine\landing_page.html:215
+msgid ""
+"Ask detailed legal questions and get precise answers tailored to your needs."
+msgstr ""
+
+#: .\templates\researchEngine\landing_page.html:224
+msgid "Legal Lens: AI-Driven Research Engine. All rights reserved."
+msgstr ""
+
+#: .\templates\researchEngine\prediction.html:4
+msgid "Predicted Outcomes - AI Legal Research"
+msgstr ""
+
+#: .\templates\researchEngine\prediction.html:20
+msgid "Enter Case Summary"
+msgstr ""
+
+#: .\templates\researchEngine\prediction.html:21
+msgid "Provide a brief summary of the case"
+msgstr ""
+
+#: .\templates\researchEngine\prediction.html:25
+msgid "Select Case Type"
+msgstr ""
+
+#: .\templates\researchEngine\prediction.html:27
+msgid "Choose case type"
+msgstr ""
+
+#: .\templates\researchEngine\prediction.html:28
+msgid "Civil"
+msgstr ""
+
+#: .\templates\researchEngine\prediction.html:29
+msgid "Criminal"
+msgstr ""
+
+#: .\templates\researchEngine\prediction.html:30
+msgid "Corporate"
+msgstr ""
+
+#: .\templates\researchEngine\prediction.html:31
+msgid "Family"
+msgstr ""
+
+#: .\templates\researchEngine\prediction.html:32
+msgid "Others"
+msgstr ""
+
+#: .\templates\researchEngine\prediction.html:37
+msgid "Select Jurisdiction"
+msgstr ""
+
+#: .\templates\researchEngine\prediction.html:39
+msgid "Choose jurisdiction"
+msgstr ""
+
+#: .\templates\researchEngine\prediction.html:40
+msgid "District Court"
+msgstr ""
+
+#: .\templates\researchEngine\prediction.html:41
+msgid "High Court"
+msgstr ""
+
+#: .\templates\researchEngine\prediction.html:42
+msgid "Supreme Court"
+msgstr ""
+
+#: .\templates\researchEngine\prediction.html:46
+msgid "Predict Outcome"
+msgstr ""
+
+#: .\templates\researchEngine\prediction.html:51
+msgid "Prediction Result"
+msgstr ""
+
+#: .\templates\researchEngine\query_page.html:3
+#: .\templates\researchEngine\query_page.html:153
+msgid "Legal Search"
+msgstr ""
+
+#: .\templates\researchEngine\query_page.html:146
+msgid "Legal Queries and Details"
+msgstr ""
+
+#: .\templates\researchEngine\query_page.html:149
+msgid "Select Search Type"
+msgstr ""
+
+#: .\templates\researchEngine\query_page.html:151
+msgid "Choose search type"
+msgstr ""
+
+#: .\templates\researchEngine\query_page.html:152
+msgid "Statute Search"
+msgstr ""
+
+#: .\templates\researchEngine\query_page.html:157
+msgid "Number of Results to Show"
+msgstr ""
+
+#: .\templates\researchEngine\query_page.html:158
+msgid "Enter number of results"
+msgstr ""
+
+#: .\templates\researchEngine\query_page.html:167
+msgid "How can I help you today?"
+msgstr ""
+
+#: .\templates\researchEngine\query_page.html:171
+msgid "Provide summarization about the case uploaded with document."
+msgstr ""
+
+#: .\templates\researchEngine\query_page.html:172
+msgid ""
+"Explain the statute, acts and section and other legal information related to "
+"the case file uploaded."
+msgstr ""
+
+#: .\templates\researchEngine\query_page.html:173
+msgid ""
+"Provide the details about some similar cases like this one in the commercial "
+"court."
+msgstr ""
+
+#: .\templates\researchEngine\upload.html:4
+msgid "Upload Legal Document"
+msgstr ""
+
+#: .\templates\researchEngine\upload.html:27
+msgid "Upload Your Case Document"
+msgstr ""
+
+#: .\templates\researchEngine\upload.html:31
+msgid "Select Document (PDF or DOCX)"
+msgstr ""
+
+#: .\templates\researchEngine\upload.html:35
+msgid "Document Description (optional)"
+msgstr ""
+
+#: .\templates\researchEngine\upload.html:36
+msgid "Add any relevant details"
+msgstr ""
+
+#: .\templates\researchEngine\upload.html:38
+msgid "Upload Document"
+msgstr ""

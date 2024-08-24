@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+{% load i18n %}
 <html lang="en">
 {% load static %}
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>{% trans "Contact Us" %}</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for Icons -->
@@ -58,20 +59,30 @@
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/"><i class="fas fa-balance-scale mr-2"></i>AI Research Engine</a>
+        <a class="navbar-brand" href="/"><i class="fas fa-balance-scale mr-2"></i>{% trans "AI Research Engine" %}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="/home/">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
-                <li class="nav-item active"><a class="nav-link" href="/contact/">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/">{% trans "Home" %}</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about/">{% trans "About" %}</a></li>
+                <li class="nav-item active"><a class="nav-link" href="/contact/">{% trans "Contact" %}</a></li>
                 <li class="nav-item ml-2">
-                    <select class="form-control">
-                        <option value="en">English</option>
-                        <option value="hi">Hindi</option>
-                    </select>
+                    <form action="{% url "set_language" %}" method="post" name='language-form'>
+                            {% csrf_token %}
+                            <select class="form-control" name='language' onchange="this.form.submit()">
+                                {% get_current_language as LANGUAGE_CODE %}
+                                {% get_available_languages as LANGUAGES %}
+                                {% get_language_info_list for LANGUAGES as languages %}
+                                {% for language in languages %}
+                                <option value="{{ language.code }}"
+                                    {% if language.code == LANGUAGE_CODE %}selected{% endif %}>
+                                    {{ language.name_local | title }}
+                                </option>
+                                {% endfor %}
+                            </select>
+                        </form>
                 </li>
             </ul>
         </div>
@@ -83,30 +94,30 @@
             <div class="row">
                 <!-- Contact Information -->
                 <div class="col-md-6 contact-info">
-                    <h2>Contact Information</h2>
-                    <p><strong>Email:</strong> <a href="mailto:support@yourproject.com">support@yourproject.com</a></p>
-                    <p><strong>Phone:</strong> <a href="tel:+1234567890">+911234567890</a></p>
-                    <p><strong>Address:</strong> Indian Institute of Technology (Indian School of Mines) Dhanbad, Jharkhand, India</p>
+                    <h2>{% trans "Contact Information" %}</h2>
+                    <p><strong>{% trans "Email" %}:</strong> <a href="mailto:support@yourproject.com">support@yourproject.com</a></p>
+                    <p><strong>{% trans "Phone" %}:</strong> <a href="tel:+1234567890">+911234567890</a></p>
+                    <p><strong>{% trans "Address" %}:</strong> {% trans "Indian Institute of Technology (Indian School of Mines) Dhanbad, Jharkhand, India" %}</p>
                 </div>
 
                 <!-- Contact Form -->
                 <div class="col-md-6 text-dark">
                     <div class="contact-form">
-                        <h3>Get in Touch</h3>
+                        <h3>{% trans "Contact Us" %}</h3>
                         <form action="/send-message" method="post">
                             <div class="form-group">
-                                <label for="name">Name</label>
+                                <label for="name">{% trans "Name" %}</label>
                                 <input type="text" class="form-control" id="name" name="name" required>
                             </div>
                             <div class="form-group">
-                                <label for="email">Email</label>
+                                <label for="email">{% trans "Email" %}</label>
                                 <input type="email" class="form-control" id="email" name="email" required>
                             </div>
                             <div class="form-group">
-                                <label for="message">Message</label>
+                                <label for="message">{% trans "Message" %}</label>
                                 <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
                             </div>
-                            <button type="submit" class="btn btn-secondary">Send Message</button>
+                            <button type="submit" class="btn btn-secondary">{% trans "Send Message" %}</button>
                         </form>
                     </div>
                 </div>
@@ -117,7 +128,7 @@
     <!-- Map Section -->
     <section class="map-section my-2">
         <div class="container">
-            <h2 class="text-center mb-4">Our Location</h2>
+            <h2 class="text-center mb-4">{% trans "Our Location" %}</h2>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.9785220182785!2d86.43418687517779!3d23.819362778623375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6bbff37e6b7ab%3A0xf1863236e90ccb61!2sSapphire%20Hostel!5e0!3m2!1sen!2sin!4v1724436227736!5m2!1sen!2sin" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>

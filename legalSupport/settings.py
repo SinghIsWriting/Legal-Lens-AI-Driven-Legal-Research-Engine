@@ -103,6 +103,7 @@ USE_TZ = True
 LANGUAGES = [
     ('en', _('English')),
     ('hi', _('Hindi')),
+    ('ta', _('Tamil')),
 ]
 
 LANGUAGE_SESSION_KEY = 'django_language'

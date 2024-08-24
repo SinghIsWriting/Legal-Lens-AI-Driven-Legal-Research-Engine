@@ -1,0 +1,578 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-25 01:29+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\legalSupport\settings.py:104
+msgid "English"
+msgstr ""
+
+#: .\legalSupport\settings.py:105
+msgid "Hindi"
+msgstr ""
+
+#: .\legalSupport\settings.py:106
+msgid "Tamil"
+msgstr ""
+
+#: .\templates\legalSupport\login.html:8
+#: .\templates\legalSupport\login.html:158
+#: .\templates\legalSupport\login.html:163
+#: .\templates\legalSupport\password_reset_complete.html:70
+#: .\templates\legalSupport\password_reset_form.html:169
+#: .\templates\legalSupport\register.html:185
+#: .\templates\researchEngine\base.html:153
+msgid "Login"
+msgstr "लॉगिन"
+
+#: .\templates\legalSupport\login.html:117
+#: .\templates\legalSupport\password_reset_complete.html:35
+#: .\templates\legalSupport\password_reset_confirm.html:117
+#: .\templates\legalSupport\password_reset_done.html:36
+#: .\templates\legalSupport\password_reset_form.html:117
+#: .\templates\legalSupport\register.html:116
+#: .\templates\researchEngine\about.html:86
+#: .\templates\researchEngine\base.html:8
+#: .\templates\researchEngine\contact.html:62
+#: .\templates\researchEngine\landing_page.html:154
+msgid "AI Research Engine"
+msgstr "एआई रिसर्च इंजन"
+
+#: .\templates\legalSupport\login.html:123
+#: .\templates\legalSupport\password_reset_complete.html:41
+#: .\templates\legalSupport\password_reset_confirm.html:123
+#: .\templates\legalSupport\password_reset_done.html:42
+#: .\templates\legalSupport\password_reset_form.html:123
+#: .\templates\legalSupport\register.html:122
+#: .\templates\researchEngine\about.html:92
+#: .\templates\researchEngine\base.html:105
+#: .\templates\researchEngine\contact.html:68
+#: .\templates\researchEngine\home.html:4
+#: .\templates\researchEngine\landing_page.html:161
+msgid "Home"
+msgstr "घर"
+
+#: .\templates\legalSupport\login.html:124
+#: .\templates\legalSupport\password_reset_complete.html:42
+#: .\templates\legalSupport\password_reset_complete.html:43
+#: .\templates\legalSupport\password_reset_confirm.html:124
+#: .\templates\legalSupport\password_reset_done.html:43
+#: .\templates\legalSupport\password_reset_form.html:124
+#: .\templates\legalSupport\register.html:123
+#: .\templates\researchEngine\about.html:93
+#: .\templates\researchEngine\base.html:106
+#: .\templates\researchEngine\contact.html:69
+#: .\templates\researchEngine\landing_page.html:162
+#: .\templates\researchEngine\landing_page.html:225
+msgid "About"
+msgstr "हमारे बारे में"
+
+#: .\templates\legalSupport\login.html:125
+#: .\templates\legalSupport\password_reset_confirm.html:125
+#: .\templates\legalSupport\password_reset_done.html:44
+#: .\templates\legalSupport\password_reset_form.html:125
+#: .\templates\legalSupport\register.html:124
+#: .\templates\researchEngine\about.html:94
+#: .\templates\researchEngine\base.html:107
+#: .\templates\researchEngine\contact.html:70
+#: .\templates\researchEngine\landing_page.html:163
+msgid "Contact"
+msgstr "संपर्क"
+
+#: .\templates\legalSupport\login.html:151
+#: .\templates\legalSupport\password_reset_form.html:151
+#: .\templates\legalSupport\register.html:150
+#: .\templates\researchEngine\landing_page.html:187
+msgid "AI-Driven Research Engine for Commercial Courts"
+msgstr "वाणिज्यिक न्यायालयों के लिए एआई-संचालित अनुसंधान इंजन"
+
+#: .\templates\legalSupport\login.html:152
+#: .\templates\legalSupport\password_reset_confirm.html:152
+#: .\templates\legalSupport\password_reset_form.html:152
+#: .\templates\legalSupport\register.html:151
+#: .\templates\researchEngine\landing_page.html:188
+msgid ""
+"Empowering legal professionals with advanced AI tools for case prediction, "
+"document analysis, and legal queries."
+msgstr ""
+"मामले की भविष्यवाणी, दस्तावेज़ विश्लेषण और कानूनी प्रश्नों के लिए उन्नत एआई उपकरणों के साथ "
+"कानूनी पेशेवरों को सशक्त बनाना।"
+
+#: .\templates\legalSupport\login.html:161
+msgid "Username"
+msgstr "उपयोगकर्ता नाम"
+
+#: .\templates\legalSupport\login.html:162
+msgid "Password"
+msgstr "पासवर्ड"
+
+#: .\templates\legalSupport\login.html:165
+msgid "Forgot Password?"
+msgstr "पासवर्ड भूल गए?"
+
+#: .\templates\legalSupport\login.html:172
+msgid "Don't have an account"
+msgstr "खाता नहीं है"
+
+#: .\templates\legalSupport\login.html:172
+msgid "Sign Up"
+msgstr "क्या आप इस साइट पर नए हैं"
+
+#: .\templates\legalSupport\password_reset_complete.html:8
+#: .\templates\legalSupport\password_reset_complete.html:68
+msgid "Password Reset Complete"
+msgstr "पासवर्ड रीसेट पूर्ण"
+
+#: .\templates\legalSupport\password_reset_complete.html:69
+msgid ""
+"Your password has been reset. You can now log in with your new password."
+msgstr "आपका पासवर्ड रीसेट कर दिया गया है। अब आप अपने नए पासवर्ड से लॉग इन कर सकते हैं।"
+
+#: .\templates\legalSupport\password_reset_complete.html:70
+msgid "Log in with your new password"
+msgstr "अपने नए पासवर्ड से लॉग इन करें"
+
+#: .\templates\legalSupport\password_reset_confirm.html:8
+msgid "Password Reset Confirm"
+msgstr "पासवर्ड रीसेट पुष्टि करें"
+
+#: .\templates\legalSupport\password_reset_confirm.html:151
+#, fuzzy
+#| msgid "AI-Driven Research Engine for Commercial Courts"
+msgid "AI-Driven Research Engine for Commercial Court"
+msgstr "वाणिज्यिक न्यायालयों के लिए एआई-संचालित अनुसंधान इंजन"
+
+#: .\templates\legalSupport\password_reset_confirm.html:158
+msgid "Confirm Reset password"
+msgstr "पासवर्ड रीसेट करने की पुष्टि करें"
+
+#: .\templates\legalSupport\password_reset_confirm.html:162
+msgid "Submit"
+msgstr "जमा करें"
+
+#: .\templates\legalSupport\password_reset_done.html:8
+msgid "Password Reset Done"
+msgstr "पासवर्ड रीसेट हो गया"
+
+#: .\templates\legalSupport\password_reset_done.html:69
+msgid "Password Reset Sent!"
+msgstr "पासवर्ड रीसेट भेजा गया!"
+
+#: .\templates\legalSupport\password_reset_done.html:70
+msgid "We've sent an email to your registered email"
+msgstr "हमने आपके पंजीकृत ईमेल पर एक ईमेल भेजा है"
+
+#: .\templates\legalSupport\password_reset_done.html:70
+msgid "with a link to reset your password."
+msgstr "अपना पासवर्ड रीसेट करने के लिंक के साथ।"
+
+#: .\templates\legalSupport\password_reset_done.html:71
+msgid ""
+"If you don't receive the email, please check your spam folder or try again."
+msgstr ""
+"यदि आपको ईमेल प्राप्त नहीं होता है, तो कृपया अपना स्पैम फ़ोल्डर जांचें या पुनः प्रयास करें।"
+
+#: .\templates\legalSupport\password_reset_form.html:8
+msgid "Password Reset Form"
+msgstr "पासवर्ड रीसेट फॉर्म"
+
+#: .\templates\legalSupport\password_reset_form.html:158
+msgid "Reset password"
+msgstr "पासवर्ड रीसेट"
+
+#: .\templates\legalSupport\password_reset_form.html:169
+msgid "Don't want to reset your password?"
+msgstr "क्या आप अपना पासवर्ड रीसेट नहीं करना चाहते?"
+
+#: .\templates\legalSupport\register.html:8
+#: .\templates\researchEngine\about.html:175
+#: .\templates\researchEngine\contact.html:8
+#: .\templates\researchEngine\contact.html:106
+#: .\templates\researchEngine\landing_page.html:225
+msgid "Contact Us"
+msgstr "संपर्क करें"
+
+#: .\templates\legalSupport\register.html:157
+msgid "Register User"
+msgstr "Register User"
+
+#: .\templates\legalSupport\register.html:176
+msgid "Register"
+msgstr "रजिस्टर करें"
+
+#: .\templates\legalSupport\register.html:185
+msgid "Already have an account?"
+msgstr "क्या आपके पास पहले से एक खाता मौजूद है?"
+
+#: .\templates\researchEngine\about.html:8
+#: .\templates\researchEngine\about.html:118
+msgid "About Us"
+msgstr "हमारे बारे में"
+
+#: .\templates\researchEngine\about.html:119
+msgid ""
+"Welcome to our project. Here we provide innovative solutions and dedicated "
+"support to help you achieve your goals. Learn more about what we do and meet "
+"the team behind the scenes."
+msgstr ""
+"हमारे प्रोजेक्ट में आपका स्वागत है। यहां हम नवोन्मेषी और समर्पित समाधान प्रदान करते हैंआपके "
+"लक्ष्यों को प्राप्त करने में सहायता के लिए समर्थन। हम क्या करते हैं और मिलते हैं इसके बारे में और "
+"जानेंपर्दे के पीछे की टीम।"
+
+#: .\templates\researchEngine\about.html:125
+msgid "Meet Our Team"
+msgstr "हमारी टीम से मिलें"
+
+#: .\templates\researchEngine\about.html:130
+msgid "Abhishek Singh"
+msgstr "अभिषेक सिंह"
+
+#: .\templates\researchEngine\about.html:131
+#: .\templates\researchEngine\about.html:138
+#: .\templates\researchEngine\about.html:145
+#: .\templates\researchEngine\about.html:152
+#: .\templates\researchEngine\about.html:159
+#: .\templates\researchEngine\about.html:166
+msgid "Team Member"
+msgstr "टीम के सदस्य"
+
+#: .\templates\researchEngine\about.html:132
+msgid ""
+"Abhishek Singh is the visionary behind our project. With over 3 years of "
+"experience in Computer Science and Programming languages."
+msgstr ""
+"अभिषेक सिंह हमारे प्रोजेक्ट के पीछे दूरदर्शी हैं। 3 वर्षों से अधिक के साथ कंप्यूटर विज्ञान और "
+"प्रोग्रामिंग भाषाओं में अनुभव।"
+
+#: .\templates\researchEngine\about.html:137
+msgid "Hirakjyoti Medhi"
+msgstr "हीरकज्योति मेधि"
+
+#: .\templates\researchEngine\about.html:139
+#: .\templates\researchEngine\about.html:160
+msgid ""
+"Jane leads our tech team, overseeing product development and ensuring our "
+"solutions are cutting-edge and reliable."
+msgstr ""
+"हीरकज्योति मेधि हमारी तकनीकी टीम का नेतृत्व करत है, उत्पाद विकास की देखरेख करती है और "
+"यह सुनिश्चित करती है कि हमारा समाधान अत्याधुनिक और विश्वसनीय हैं।"
+
+#: .\templates\researchEngine\about.html:144
+msgid "Biswajit Bera"
+msgstr "विश्वजीत बेरा"
+
+#: .\templates\researchEngine\about.html:146
+#: .\templates\researchEngine\about.html:167
+msgid ""
+"Michael is responsible for creating intuitive and engaging user interfaces, "
+"making sure our products are both functional and beautiful."
+msgstr ""
+"विश्वजीत बेरा और आकर्षक उपयोगकर्ता इंटरफ़ेस बनाने के लिए ज़िम्मेदार है, सुनिश्चित करना कि "
+"हमारे उत्पाद कार्यात्मक और सुंदर दोनों हैं।"
+
+#: .\templates\researchEngine\about.html:151
+msgid "Roshan Jha"
+msgstr "रोशन झा"
+
+#: .\templates\researchEngine\about.html:153
+msgid ""
+"Roshan Jha is the visionary behind our project. With over 3 years of "
+"experience in Computer Science and Programming languages."
+msgstr ""
+"रोशन झा हमारे प्रोजेक्ट के पीछे दूरदर्शी हैं। 3 वर्षों से अधिक के साथ कंप्यूटर विज्ञान और "
+"प्रोग्रामिंग भाषाओं में अनुभव।"
+
+#: .\templates\researchEngine\about.html:158
+msgid "Ashutosh Kumar"
+msgstr "आशुतोष कुमारr"
+
+#: .\templates\researchEngine\about.html:165
+msgid "Shruti Jaiswal"
+msgstr "श्रुति जयसवाल"
+
+#: .\templates\researchEngine\about.html:176
+msgid "Have questions or need support? Reach out to us at"
+msgstr "प्रश्न हैं या समर्थन की आवश्यकता है? हमसे संपर्क करें"
+
+#: .\templates\researchEngine\about.html:177
+#: .\templates\researchEngine\contact.html:98
+#: .\templates\researchEngine\contact.html:113
+msgid "Email"
+msgstr "ईमेल"
+
+#: .\templates\researchEngine\about.html:178
+#: .\templates\researchEngine\contact.html:99
+msgid "Phone"
+msgstr "फ़ोन"
+
+#: .\templates\researchEngine\about.html:179
+msgid ""
+"Address: Indian Institute of Technology (Indian School of Mines) Dhanbad, "
+"Jharkhand, India"
+msgstr "पता: भारतीय प्रौद्योगिकी संस्थान (भारतीय खान विद्यालय) धनबाद, झारखंड, भारत"
+
+#: .\templates\researchEngine\base.html:98
+#: .\templates\researchEngine\home.html:4
+#: .\templates\researchEngine\query_page.html:3
+#: .\templates\researchEngine\upload.html:4
+msgid "AI Legal Research"
+msgstr "एआई रिसर्च इंजन"
+
+#: .\templates\researchEngine\base.html:139
+msgid "Upload Documents"
+msgstr "दस्तावेज़ अपलोड करें"
+
+#: .\templates\researchEngine\base.html:142
+#: .\templates\researchEngine\landing_page.html:214
+msgid "Legal Queries"
+msgstr "कानूनी प्रश्न"
+
+#: .\templates\researchEngine\base.html:145
+#: .\templates\researchEngine\landing_page.html:207
+msgid "Case Prediction"
+msgstr "मामले की भविष्यवाणी"
+
+#: .\templates\researchEngine\base.html:151
+msgid "Logout"
+msgstr "लॉगआउट"
+
+#: .\templates\researchEngine\contact.html:97
+msgid "Contact Information"
+msgstr "संपर्क जानकारी"
+
+#: .\templates\researchEngine\contact.html:100
+msgid "Address"
+msgstr "पता"
+
+#: .\templates\researchEngine\contact.html:100
+msgid ""
+"Indian Institute of Technology (Indian School of Mines) Dhanbad, Jharkhand, "
+"India"
+msgstr "भारतीय प्रौद्योगिकी संस्थान (इंडियन स्कूल ऑफ माइन्स) धनबाद, झारखंड, भारत"
+
+#: .\templates\researchEngine\contact.html:109
+msgid "Name"
+msgstr "नाम"
+
+#: .\templates\researchEngine\contact.html:117
+msgid "Message"
+msgstr "संदेश"
+
+#: .\templates\researchEngine\contact.html:120
+msgid "Send Message"
+msgstr "संदेश भेजें"
+
+#: .\templates\researchEngine\contact.html:131
+msgid "Our Location"
+msgstr "हमारा पता"
+
+#: .\templates\researchEngine\home.html:130
+#: .\templates\researchEngine\query_page.html:166
+msgid "Hello"
+msgstr "नमस्ते"
+
+#: .\templates\researchEngine\home.html:131
+msgid "How can I help you today"
+msgstr "आज मैं आपकी मदद करने में कैसे सक्षम हूं"
+
+#: .\templates\researchEngine\home.html:137
+#: .\templates\researchEngine\query_page.html:179
+msgid "Type your question"
+msgstr "अपना प्रश्न लिखें"
+
+#: .\templates\researchEngine\landing_page.html:8
+msgid "Project Landing Page"
+msgstr "परियोजना लैंडिंग पृष्ठ"
+
+#: .\templates\researchEngine\landing_page.html:189
+msgid "Get Started"
+msgstr "शुरू करें"
+
+#: .\templates\researchEngine\landing_page.html:195
+msgid "Key Features"
+msgstr "प्रमुख विशेषताऐं"
+
+#: .\templates\researchEngine\landing_page.html:200
+msgid "Document Upload"
+msgstr "दस्तावेज़ अपलोड"
+
+#: .\templates\researchEngine\landing_page.html:201
+msgid ""
+"Easily upload legal documents in PDF or DOC format for analysis and insights."
+msgstr ""
+"विश्लेषण और अंतर्दृष्टि के लिए आसानी से पीडीएफ या डीओसी प्रारूप में कानूनी दस्तावेज अपलोड "
+"करें।"
+
+#: .\templates\researchEngine\landing_page.html:208
+msgid ""
+"Leverage AI to predict case outcomes based on historical data and trends."
+msgstr ""
+"ऐतिहासिक डेटा और रुझानों के आधार पर मामले के परिणामों की भविष्यवाणी करने के लिए एआई का "
+"लाभ उठाएं।"
+
+#: .\templates\researchEngine\landing_page.html:215
+msgid ""
+"Ask detailed legal questions and get precise answers tailored to your needs."
+msgstr "विस्तृत कानूनी प्रश्न पूछें और अपनी आवश्यकताओं के अनुरूप सटीक उत्तर प्राप्त करें।"
+
+#: .\templates\researchEngine\landing_page.html:224
+msgid "Legal Lens: AI-Driven Research Engine. All rights reserved."
+msgstr "कानूनी लेंस: एआई-संचालित अनुसंधान इंजन। सर्वाधिकार सुरक्षित।"
+
+#: .\templates\researchEngine\prediction.html:4
+msgid "Predicted Outcomes - AI Legal Research"
+msgstr "अनुमानित परिणाम - एआई रिसर्च इंजन"
+
+#: .\templates\researchEngine\prediction.html:20
+msgid "Enter Case Summary"
+msgstr "केस सारांश दर्ज करें"
+
+#: .\templates\researchEngine\prediction.html:21
+msgid "Provide a brief summary of the case"
+msgstr "मामले का संक्षिप्त सारांश प्रदान करें"
+
+#: .\templates\researchEngine\prediction.html:25
+msgid "Select Case Type"
+msgstr "मामला प्रकार का चयन करें"
+
+#: .\templates\researchEngine\prediction.html:27
+msgid "Choose case type"
+msgstr "मामला प्रकार चुनें"
+
+#: .\templates\researchEngine\prediction.html:28
+msgid "Civil"
+msgstr "नागरिक"
+
+#: .\templates\researchEngine\prediction.html:29
+msgid "Criminal"
+msgstr "अनुचित"
+
+#: .\templates\researchEngine\prediction.html:30
+msgid "Corporate"
+msgstr "कॉर्पोरेट"
+
+#: .\templates\researchEngine\prediction.html:31
+msgid "Family"
+msgstr "परिवार"
+
+#: .\templates\researchEngine\prediction.html:32
+msgid "Others"
+msgstr "दूसरों"
+
+#: .\templates\researchEngine\prediction.html:37
+msgid "Select Jurisdiction"
+msgstr "क्षेत्राधिकार का चयन करें"
+
+#: .\templates\researchEngine\prediction.html:39
+msgid "Choose jurisdiction"
+msgstr "मामले की भविष्यवाणी"
+
+#: .\templates\researchEngine\prediction.html:40
+msgid "District Court"
+msgstr "जिला न्यायालय"
+
+#: .\templates\researchEngine\prediction.html:41
+msgid "High Court"
+msgstr "हाई कोर्ट"
+
+#: .\templates\researchEngine\prediction.html:42
+msgid "Supreme Court"
+msgstr "सर्वोच्च न्यायालय"
+
+#: .\templates\researchEngine\prediction.html:46
+msgid "Predict Outcome"
+msgstr "परिणाम की भविष्यवाणी करें"
+
+#: .\templates\researchEngine\prediction.html:51
+msgid "Prediction Result"
+msgstr "मामले की भविष्यवाणी"
+
+#: .\templates\researchEngine\query_page.html:3
+#: .\templates\researchEngine\query_page.html:153
+msgid "Legal Search"
+msgstr "एआई रिसर्च इंजन"
+
+#: .\templates\researchEngine\query_page.html:146
+msgid "Legal Queries and Details"
+msgstr "कानूनी प्रश्न"
+
+#: .\templates\researchEngine\query_page.html:149
+msgid "Select Search Type"
+msgstr "खोज प्रकार का चयन करें"
+
+#: .\templates\researchEngine\query_page.html:151
+msgid "Choose search type"
+msgstr "खोज के प्रकार का चयन करें"
+
+#: .\templates\researchEngine\query_page.html:152
+msgid "Statute Search"
+msgstr "क़ानून खोज"
+
+#: .\templates\researchEngine\query_page.html:157
+msgid "Number of Results to Show"
+msgstr "दिखाने के लिए परिणामों की संख्या"
+
+#: .\templates\researchEngine\query_page.html:158
+msgid "Enter number of results"
+msgstr "परिणामों की संख्या दर्ज करें"
+
+#: .\templates\researchEngine\query_page.html:167
+msgid "How can I help you today?"
+msgstr "आज मैं आपकी कैसे मदद कर सकता हूँ?"
+
+#: .\templates\researchEngine\query_page.html:171
+msgid "Provide summarization about the case uploaded with document."
+msgstr "दस्तावेज़ के साथ अपलोड किए गए मामले के बारे में सारांश प्रदान करें।"
+
+#: .\templates\researchEngine\query_page.html:172
+msgid ""
+"Explain the statute, acts and section and other legal information related to "
+"the case file uploaded."
+msgstr ""
+"संविधि, अधिनियमों और धारा और अन्य कानूनी जानकारी से संबंधित व्याख्या करें केस फाइल अपलोड "
+"की गई।"
+
+#: .\templates\researchEngine\query_page.html:173
+msgid ""
+"Provide the details about some similar cases like this one in the commercial "
+"court."
+msgstr "वाणिज्यिक में इस तरह के कुछ समान मामलों के बारे में विवरण प्रदान करें अदालत।"
+
+#: .\templates\researchEngine\upload.html:4
+msgid "Upload Legal Document"
+msgstr "कानूनी दस्तावेज़ अपलोड करें"
+
+#: .\templates\researchEngine\upload.html:27
+msgid "Upload Your Case Document"
+msgstr "अपना केस दस्तावेज़ अपलोड करें"
+
+#: .\templates\researchEngine\upload.html:31
+msgid "Select Document (PDF or DOCX)"
+msgstr "दस्तावेज़ चुनें (PDF या DOCX)"
+
+#: .\templates\researchEngine\upload.html:35
+msgid "Document Description (optional)"
+msgstr "दस्तावेज़ विवरण (वैकल्पिक)"
+
+#: .\templates\researchEngine\upload.html:36
+msgid "Add any relevant details"
+msgstr "कोई भी प्रासंगिक विवरण जोड़ें"
+
+#: .\templates\researchEngine\upload.html:38
+msgid "Upload Document"
+msgstr "दस्तावेज़ अपलोड करें"
