@@ -8,5 +8,5 @@ urlpatterns = [
     path('contact/', views.contact, name='contact'),
     path('upload/', views.upload_document, name='upload_document'),
     path('prediction/', views.prediction, name='prediction'),
-    path('query/', views.query, name='query'),
+    path('query/', views.query_view, name='query'),
 ]

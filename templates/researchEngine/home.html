@@ -177,7 +177,7 @@
                     'Content-Type': 'application/json',
                     'X-CSRFToken': '{{ csrf_token }}' // CSRF token for security
                 },
-                body: JSON.stringify({ query: query })
+                body: JSON.stringify({ 'query': query })
             });
 
             if (response.ok) {

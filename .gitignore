@@ -1,6 +1,15 @@
 venv
+env
 solution-problem.txt
 legalSupport/__pycache__/
 Reference Files
 researchEngine/__pycache__/
 researchEngine/migrations/__pycache__/
+volumes
+tokenizer.pkl
+label_encoder.pkl
+data
+best_lstm_model.pth
+CommercialActs.csv
+all_commercial_laws.csv
+2_Harry Potter and the  Chamber of Secrets.pdf
