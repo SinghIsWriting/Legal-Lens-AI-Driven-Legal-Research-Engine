@@ -98,6 +98,9 @@ Use the language dropdown in the navbar to switch between supported languages.
 
 ## **Screenshots**
 
+### Landing Page
+![Home Page](Screenshots/Screenshot_landin.jpeg)
+
 ### Home Page
 ![Home Page](Screenshots/Screenshot-home.jpeg)
 
