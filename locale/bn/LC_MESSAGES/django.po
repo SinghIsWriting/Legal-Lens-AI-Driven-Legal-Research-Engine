@@ -42,7 +42,7 @@ msgstr ""
 #: .\templates\legalSupport\register.html:186
 #: .\templates\researchEngine\base.html:152
 msgid "Login"
-msgstr ""
+msgstr "লগইন করুন"
 
 #: .\templates\legalSupport\login.html:117
 #: .\templates\legalSupport\password_reset_complete.html:35
@@ -55,7 +55,7 @@ msgstr ""
 #: .\templates\researchEngine\contact.html:62
 #: .\templates\researchEngine\landing_page.html:154
 msgid "AI Research Engine"
-msgstr ""
+msgstr "এআই রিসার্চ ইঞ্জিন"
 
 #: .\templates\legalSupport\login.html:123
 #: .\templates\legalSupport\password_reset_complete.html:41
@@ -69,7 +69,7 @@ msgstr ""
 #: .\templates\researchEngine\home.html:4
 #: .\templates\researchEngine\landing_page.html:161
 msgid "Home"
-msgstr ""
+msgstr "হোম"
 
 #: .\templates\legalSupport\login.html:124
 #: .\templates\legalSupport\password_reset_complete.html:42
@@ -84,7 +84,7 @@ msgstr ""
 #: .\templates\researchEngine\landing_page.html:162
 #: .\templates\researchEngine\landing_page.html:225
 msgid "About"
-msgstr ""
+msgstr "সম্পর্কে"
 
 #: .\templates\legalSupport\login.html:125
 #: .\templates\legalSupport\password_reset_confirm.html:125
@@ -96,14 +96,14 @@ msgstr ""
 #: .\templates\researchEngine\contact.html:70
 #: .\templates\researchEngine\landing_page.html:163
 msgid "Contact"
-msgstr ""
+msgstr "যোগাযোগ"
 
 #: .\templates\legalSupport\login.html:151
 #: .\templates\legalSupport\password_reset_form.html:151
 #: .\templates\legalSupport\register.html:150
 #: .\templates\researchEngine\landing_page.html:187
 msgid "AI-Driven Research Engine for Commercial Courts"
-msgstr ""
+msgstr "বাণিজ্যিক আদালতের জন্য এআই চালিত গবেষণা ইঞ্জিন"
 
 #: .\templates\legalSupport\login.html:152
 #: .\templates\legalSupport\password_reset_confirm.html:152
@@ -114,52 +114,56 @@ msgid ""
 "Empowering legal professionals with advanced AI tools for case prediction, "
 "document analysis, and legal queries."
 msgstr ""
+"কেস পূর্বাভাস, নথি বিশ্লেষণ এবং আইনি প্রশ্নের জন্য উন্নত এআই সরঞ্জামগুলি দিয়ে আইনি "
+"পেশাজীবীদের ক্ষমতায়ন।"
 
 #: .\templates\legalSupport\login.html:161
 msgid "Username"
-msgstr ""
+msgstr "ব্যবহারকারীর নাম"
 
 #: .\templates\legalSupport\login.html:162
 msgid "Password"
-msgstr ""
+msgstr "পাসওয়ার্ড"
 
 #: .\templates\legalSupport\login.html:165
 msgid "Forgot Password?"
-msgstr ""
+msgstr "পাসওয়ার্ড ভুলে গেছেন?"
 
 #: .\templates\legalSupport\login.html:172
 msgid "Don't have an account"
-msgstr ""
+msgstr "একটি অ্যাকাউন্ট নেই?"
 
 #: .\templates\legalSupport\login.html:172
 msgid "Sign Up"
-msgstr ""
+msgstr "সাইন আপ করুন"
 
 #: .\templates\legalSupport\password_reset_complete.html:8
 #: .\templates\legalSupport\password_reset_complete.html:68
 msgid "Password Reset Complete"
-msgstr ""
+msgstr "পাসওয়ার্ড রিসেট সম্পন্ন"
 
 #: .\templates\legalSupport\password_reset_complete.html:69
 msgid ""
 "Your password has been reset. You can now log in with your new password."
 msgstr ""
+"আপনার পাসওয়ার্ড রিসেট করা হয়েছে। এখন আপনি আপনার নতুন পাসওয়ার্ড দিয়ে লগ ইন করতে "
+"পারেন।"
 
 #: .\templates\legalSupport\password_reset_complete.html:70
 msgid "Log in with your new password"
-msgstr ""
+msgstr "আপনার নতুন পাসওয়ার্ড দিয়ে লগইন করুন"
 
 #: .\templates\legalSupport\password_reset_confirm.html:8
 msgid "Password Reset Confirm"
-msgstr ""
+msgstr "পাসওয়ার্ড রিসেট নিশ্চিত করুন"
 
 #: .\templates\legalSupport\password_reset_confirm.html:151
 msgid "AI-Driven Research Engine for Commercial Court"
-msgstr ""
+msgstr "বাণিজ্যিক আদালতের জন্য এআই চালিত গবেষণা ইঞ্জিন"
 
 #: .\templates\legalSupport\password_reset_confirm.html:158
 msgid "Confirm Reset password"
-msgstr ""
+msgstr "পাসওয়ার্ড রিসেট নিশ্চিত করুন"
 
 #: .\templates\legalSupport\password_reset_confirm.html:162
 #: .\templates\legalSupport\password_reset_confirm.html:163
@@ -172,71 +176,73 @@ msgstr ""
 #: .\templates\legalSupport\register.html:173
 #: .\templates\legalSupport\register.html:174
 msgid "Enter Password"
-msgstr ""
+msgstr "পাসওয়ার্ড"
 
 #: .\templates\legalSupport\password_reset_confirm.html:162
 #: .\templates\legalSupport\password_reset_confirm.html:163
 msgid "Old"
-msgstr ""
+msgstr "পুরনো"
 
 #: .\templates\legalSupport\password_reset_confirm.html:166
 #: .\templates\legalSupport\password_reset_confirm.html:167
 #: .\templates\legalSupport\password_reset_confirm.html:170
 #: .\templates\legalSupport\password_reset_confirm.html:171
 msgid "New"
-msgstr ""
+msgstr "নতুন"
 
 #: .\templates\legalSupport\password_reset_confirm.html:170
 #: .\templates\legalSupport\password_reset_confirm.html:171
 #: .\templates\legalSupport\register.html:173
 #: .\templates\legalSupport\register.html:174
 msgid "Again"
-msgstr ""
+msgstr "আবার"
 
 #: .\templates\legalSupport\password_reset_confirm.html:173
 #: .\templates\legalSupport\password_reset_form.html:165
 msgid "Submit"
-msgstr ""
+msgstr "জমা দিন"
 
 #: .\templates\legalSupport\password_reset_done.html:8
 msgid "Password Reset Done"
-msgstr ""
+msgstr "পাসওয়ার্ড রিসেট সম্পন্ন"
 
 #: .\templates\legalSupport\password_reset_done.html:69
 msgid "Password Reset Sent!"
-msgstr ""
+msgstr "পাসওয়ার্ড রিসেট পাঠানো হয়েছে!"
 
 #: .\templates\legalSupport\password_reset_done.html:70
 msgid "We've sent an email to your registered email"
-msgstr ""
+msgstr "আমরা আপনার নিবন্ধিত ইমেইলে একটি ইমেইল পাঠিয়েছি"
 
 #: .\templates\legalSupport\password_reset_done.html:70
 msgid "with a link to reset your password."
-msgstr ""
+msgstr "আপনার পাসওয়ার্ড রিসেট করার লিঙ্ক সহ।"
 
 #: .\templates\legalSupport\password_reset_done.html:71
 msgid ""
 "If you don't receive the email, please check your spam folder or try again."
 msgstr ""
+"যদি আপনি ইমেইল না পান, অনুগ্রহ করে আপনার স্প্যাম ফোল্ডার চেক করুন বা আবার চেষ্টা "
+"করুন।"
 
 #: .\templates\legalSupport\password_reset_form.html:8
 msgid "Password Reset Form"
-msgstr ""
+msgstr "পাসওয়ার্ড রিসেট ফর্ম"
 
 #: .\templates\legalSupport\password_reset_form.html:158
 msgid "Reset"
-msgstr ""
+msgstr "রিসেট"
 
 #: .\templates\legalSupport\password_reset_form.html:162
 #: .\templates\legalSupport\password_reset_form.html:163
 #: .\templates\legalSupport\register.html:165
 #: .\templates\legalSupport\register.html:166
 msgid "Enter Email"
-msgstr ""
+msgstr "ইমেইল"
 
 #: .\templates\legalSupport\password_reset_form.html:172
 msgid "Don't want to reset your password?"
-msgstr ""
+msgstr "আপনি কি আপনার পাসওয়ার্ড রিসেট করতে চান না?"
 
 #: .\templates\legalSupport\register.html:8
 #: .\templates\researchEngine\about.html:175
@@ -244,29 +250,29 @@ msgstr ""
 #: .\templates\researchEngine\contact.html:106
 #: .\templates\researchEngine\landing_page.html:225
 msgid "Contact Us"
-msgstr ""
+msgstr "যোগাযোগ করুন"
 
 #: .\templates\legalSupport\register.html:157
 msgid "Register User"
-msgstr ""
+msgstr "ব্যবহারকারী নিবন্ধন করুন"
 
 #: .\templates\legalSupport\register.html:161
 #: .\templates\legalSupport\register.html:162
 msgid "Enter Username"
-msgstr ""
+msgstr "ব্যবহারকারীর নাম"
 
 #: .\templates\legalSupport\register.html:177
 msgid "Register"
-msgstr ""
+msgstr "নিবন্ধন করুন"
 
 #: .\templates\legalSupport\register.html:186
 msgid "Already have an account?"
-msgstr ""
+msgstr "ইতিমধ্যে একটি অ্যাকাউন্ট আছে?"
 
 #: .\templates\researchEngine\about.html:8
 #: .\templates\researchEngine\about.html:118
 msgid "About Us"
-msgstr ""
+msgstr "আমাদের সম্পর্কে"
 
 #: .\templates\researchEngine\about.html:119
 msgid ""
@@ -274,14 +280,17 @@ msgid ""
 "support to help you achieve your goals. Learn more about what we do and meet "
 "the team behind the scenes."
 msgstr ""
+"আমাদের প্রকল্পে স্বাগতম। এখানে আমরা উদ্ভাবনী সমাধান এবং নিবেদিত সমর্থন প্রদান করি "
+"যাতে আপনাকে আপনার লক্ষ্য অর্জনে সহায়তা করতে পারি। আমরা যা করি তা সম্পর্কে আরও "
+"জানুন এবং পর্দার আড়ালে থাকা দলটির সাথে পরিচিত হন।"
 
 #: .\templates\researchEngine\about.html:125
 msgid "Meet Our Team"
-msgstr ""
+msgstr "আমাদের দলের সাথে পরিচিত হন"
 
 #: .\templates\researchEngine\about.html:130
 msgid "Abhishek Singh"
-msgstr ""
+msgstr "অভিষেক সিং"
 
 #: .\templates\researchEngine\about.html:131
 #: .\templates\researchEngine\about.html:138
@@ -290,17 +299,19 @@ msgstr ""
 #: .\templates\researchEngine\about.html:159
 #: .\templates\researchEngine\about.html:166
 msgid "Team Member"
-msgstr ""
+msgstr "দলের সদস্য"
 
 #: .\templates\researchEngine\about.html:132
 msgid ""
 "Abhishek Singh is the visionary behind our project. With over 3 years of "
 "experience in Computer Science and Programming languages."
 msgstr ""
+"অভিষেক সিং আমাদের প্রকল্পের দৃষ্টিনন্দন ব্যক্তিত্ব। কম্পিউটার বিজ্ঞান এবং প্রোগ্রামিং "
+"ভাষায় ৩ বছরেরও বেশি অভিজ্ঞতা রয়েছে তার।"
 
 #: .\templates\researchEngine\about.html:137
 msgid "Hirakjyoti Medhi"
-msgstr ""
+msgstr "হীরকজ্যোতি মেধি"
 
 #: .\templates\researchEngine\about.html:139
 #: .\templates\researchEngine\about.html:160
@@ -308,10 +319,12 @@ msgid ""
 "Jane leads our tech team, overseeing product development and ensuring our "
 "solutions are cutting-edge and reliable."
 msgstr ""
+"জেন আমাদের টেক টিমের নেতৃত্ব দেয়, পণ্য উন্নয়ন পর্যবেক্ষণ করে এবং নিশ্চিত করে যে "
+"আমাদের সমাধানগুলি আধুনিক এবং নির্ভরযোগ্য।"
 
 #: .\templates\researchEngine\about.html:144
 msgid "Biswajit Bera"
-msgstr ""
+msgstr "বিস্বজিৎ বেরা"
 
 #: .\templates\researchEngine\about.html:146
 #: .\templates\researchEngine\about.html:167
@@ -319,288 +332,305 @@ msgid ""
 "Michael is responsible for creating intuitive and engaging user interfaces, "
 "making sure our products are both functional and beautiful."
 msgstr ""
+"মাইকেল সহজবোধ্য এবং আকর্ষণীয় ব্যবহারকারী ইন্টারফেস তৈরির দায়িত্বে রয়েছেন, নিশ্চিত "
+"করছেন যে আমাদের পণ্যগুলি কার্যকরী এবং সুন্দর।"
 
 #: .\templates\researchEngine\about.html:151
 msgid "Roshan Jha"
-msgstr ""
+msgstr "রোশন ঝা"
 
 #: .\templates\researchEngine\about.html:153
 msgid ""
 "Roshan Jha is the visionary behind our project. With over 3 years of "
 "experience in Computer Science and Programming languages."
 msgstr ""
+"রোশন ঝা আমাদের প্রকল্পের দৃষ্টিনন্দন ব্যক্তিত্ব। কম্পিউটার বিজ্ঞান এবং প্রোগ্রামিং ভাষায় "
+"৩ বছরেরও বেশি অভিজ্ঞতা রয়েছে তার।"
 
 #: .\templates\researchEngine\about.html:158
 msgid "Ashutosh Kumar"
-msgstr ""
+msgstr "অশ্বতোষ কুমার"
 
 #: .\templates\researchEngine\about.html:165
 msgid "Shruti Jaiswal"
-msgstr ""
+msgstr "শ্রুতি জয়সওয়াল"
 
 #: .\templates\researchEngine\about.html:176
 msgid "Have questions or need support? Reach out to us at"
-msgstr ""
+msgstr "প্রশ্ন আছে বা সমর্থন প্রয়োজন? আমাদের সাথে যোগাযোগ করুন"
 
 #: .\templates\researchEngine\about.html:177
 #: .\templates\researchEngine\contact.html:98
 #: .\templates\researchEngine\contact.html:113
 msgid "Email"
-msgstr ""
+msgstr "ইমেইল"
 
 #: .\templates\researchEngine\about.html:178
 #: .\templates\researchEngine\contact.html:99
 msgid "Phone"
-msgstr ""
+msgstr "ফোন"
 
 #: .\templates\researchEngine\about.html:179
 msgid ""
 "Address: Indian Institute of Technology (Indian School of Mines) Dhanbad, "
 "Jharkhand, India"
-msgstr ""
+msgstr "ঠিকানা: ভারতীয় প্রযুক্তি ইনস্টিটিউট (ভারতীয় খনির স্কুল) ধানবাদ, ঝাড়খন্ড, ভারত"
 
 #: .\templates\researchEngine\base.html:98
 #: .\templates\researchEngine\home.html:4
 #: .\templates\researchEngine\query_page.html:3
 #: .\templates\researchEngine\upload.html:4
 msgid "AI Legal Research"
-msgstr ""
+msgstr "এআই আইনী গবেষণা"
 
 #: .\templates\researchEngine\base.html:138
 msgid "Upload Documents"
-msgstr ""
+msgstr "নথি আপলোড করুন"
 
 #: .\templates\researchEngine\base.html:141
 #: .\templates\researchEngine\landing_page.html:214
 msgid "Legal Queries"
-msgstr ""
+msgstr "আইনি প্রশ্নাবলী"
 
 #: .\templates\researchEngine\base.html:144
 #: .\templates\researchEngine\landing_page.html:207
 #: .\templates\researchEngine\prediction.html:17
 msgid "Case Prediction"
-msgstr ""
+msgstr "মামলার পূর্বাভাস"
 
 #: .\templates\researchEngine\base.html:150
 msgid "Logout"
-msgstr ""
+msgstr "লগ আউট"
 
 #: .\templates\researchEngine\contact.html:97
 msgid "Contact Information"
-msgstr ""
+msgstr "যোগাযোগের তথ্য"
 
 #: .\templates\researchEngine\contact.html:100
 msgid "Address"
-msgstr ""
+msgstr "ঠিকানা"
 
 #: .\templates\researchEngine\contact.html:100
 msgid ""
 "Indian Institute of Technology (Indian School of Mines) Dhanbad, Jharkhand, "
 "India"
-msgstr ""
+msgstr "ভারতীয় প্রযুক্তি ইনস্টিটিউট (ভারতীয় খনির স্কুল) ধানবাদ, ঝাড়খন্ড, ভারত"
 
 #: .\templates\researchEngine\contact.html:109
 msgid "Name"
-msgstr ""
+msgstr "নাম"
 
 #: .\templates\researchEngine\contact.html:117
 msgid "Message"
-msgstr ""
+msgstr "বার্তা"
 
 #: .\templates\researchEngine\contact.html:120
 msgid "Send Message"
-msgstr ""
+msgstr "বার্তা পাঠান"
 
 #: .\templates\researchEngine\contact.html:131
 msgid "Our Location"
-msgstr ""
+msgstr "আমাদের অবস্থান"
 
 #: .\templates\researchEngine\home.html:130
 #: .\templates\researchEngine\query_page.html:166
 msgid "Hello"
-msgstr ""
+msgstr "হ্যালো"
 
 #: .\templates\researchEngine\home.html:131
 msgid "How can I help you today"
-msgstr ""
+msgstr "আজ আমি আপনাকে কিভাবে সাহায্য করতে পারি"
 
 #: .\templates\researchEngine\home.html:137
 #: .\templates\researchEngine\query_page.html:179
 msgid "Type your question"
-msgstr ""
+msgstr "আপনার প্রশ্ন টাইপ করুন"
 
 #: .\templates\researchEngine\landing_page.html:8
 msgid "Project Landing Page"
-msgstr ""
+msgstr "প্রকল্পের ল্যান্ডিং পৃষ্ঠা"
 
 #: .\templates\researchEngine\landing_page.html:189
 msgid "Get Started"
-msgstr ""
+msgstr "শুরু করুন"
 
 #: .\templates\researchEngine\landing_page.html:195
 msgid "Key Features"
-msgstr ""
+msgstr "মূল বৈশিষ্ট্য"
 
 #: .\templates\researchEngine\landing_page.html:200
 msgid "Document Upload"
-msgstr ""
+msgstr "নথি আপলোড"
 
 #: .\templates\researchEngine\landing_page.html:201
 msgid ""
 "Easily upload legal documents in PDF or DOC format for analysis and insights."
 msgstr ""
+"বিভিন্ন বিশ্লেষণ ও অন্তর্দৃষ্টির জন্য সহজে PDF বা DOC ফরম্যাটে আইনি নথি আপলোড করুন।"
 
 #: .\templates\researchEngine\landing_page.html:208
 msgid ""
 "Leverage AI to predict case outcomes based on historical data and trends."
 msgstr ""
+"ঐতিহাসিক তথ্য ও প্রবণতার ভিত্তিতে মামলার ফলাফল পূর্বাভাস দিতে AI ব্যবহার করুন।"
 
 #: .\templates\researchEngine\landing_page.html:215
 msgid ""
 "Ask detailed legal questions and get precise answers tailored to your needs."
-msgstr ""
+msgstr "বিস্তারিত আইনি প্রশ্ন করুন এবং আপনার প্রয়োজন অনুযায়ী সঠিক উত্তর পান।"
 
 #: .\templates\researchEngine\landing_page.html:224
 msgid "Legal Lens: AI-Driven Research Engine. All rights reserved."
-msgstr ""
+msgstr "আইনি লেন্স: এআই-চালিত গবেষণা ইঞ্জিন। সমস্ত অধিকার সংরক্ষিত।"
 
 #: .\templates\researchEngine\prediction.html:4
 msgid "Predicted Outcomes - AI Legal Research"
-msgstr ""
+msgstr "পূর্বাভাসিত ফলাফল - এআই আইনী গবেষণা"
 
 #: .\templates\researchEngine\prediction.html:20
 msgid "Enter Case Summary"
-msgstr ""
+msgstr "মামলার সারসংক্ষেপ লিখুন"
 
 #: .\templates\researchEngine\prediction.html:21
 msgid "Provide a brief summary of the case"
-msgstr ""
+msgstr "মামলার একটি সংক্ষিপ্ত সারসংক্ষেপ প্রদান করুন"
 
 #: .\templates\researchEngine\prediction.html:25
 msgid "Select Case Type"
-msgstr ""
+msgstr "মামলার প্রকার নির্বাচন করুন"
 
 #: .\templates\researchEngine\prediction.html:27
 msgid "Choose case type"
-msgstr ""
+msgstr "মামলার প্রকার নির্বাচন করুন"
 
 #: .\templates\researchEngine\prediction.html:28
 msgid "Civil"
-msgstr ""
+msgstr "নাগরিক"
 
 #: .\templates\researchEngine\prediction.html:29
 msgid "Criminal"
-msgstr ""
+msgstr "অপরাধ"
 
 #: .\templates\researchEngine\prediction.html:30
 msgid "Corporate"
-msgstr ""
+msgstr "কর্পোরেট"
 
 #: .\templates\researchEngine\prediction.html:31
 msgid "Family"
-msgstr ""
+msgstr "পারিবারিক"
 
 #: .\templates\researchEngine\prediction.html:32
 msgid "Others"
-msgstr ""
+msgstr "অন্যান্য"
 
 #: .\templates\researchEngine\prediction.html:37
 msgid "Select Jurisdiction"
-msgstr ""
+msgstr "অধিকার অঞ্চল নির্বাচন করুন"
 
 #: .\templates\researchEngine\prediction.html:39
 msgid "Choose jurisdiction"
-msgstr ""
+msgstr "অধিকার অঞ্চল নির্বাচন করুন"
 
 #: .\templates\researchEngine\prediction.html:40
 msgid "District Court"
-msgstr ""
+msgstr "জেলা আদালত"
 
 #: .\templates\researchEngine\prediction.html:41
 msgid "High Court"
-msgstr ""
+msgstr "হাইকোর্ট"
 
 #: .\templates\researchEngine\prediction.html:42
 msgid "Supreme Court"
-msgstr ""
+msgstr "সুপ্রিম কোর্ট"
 
 #: .\templates\researchEngine\prediction.html:46
 msgid "Predict Outcome"
-msgstr ""
+msgstr "ফলাফল পূর্বাভাস করুন"
 
 #: .\templates\researchEngine\prediction.html:51
 msgid "Prediction Result"
-msgstr ""
+msgstr "পূর্বাভাসের ফলাফল"
 
 #: .\templates\researchEngine\query_page.html:3
 #: .\templates\researchEngine\query_page.html:153
 msgid "Legal Search"
-msgstr ""
+msgstr "আইনি অনুসন্ধান"
 
 #: .\templates\researchEngine\query_page.html:146
 msgid "Legal Queries and Details"
-msgstr ""
+msgstr "আইনি প্রশ্নাবলী এবং বিস্তারিত"
 
 #: .\templates\researchEngine\query_page.html:149
 msgid "Select Search Type"
-msgstr ""
+msgstr "অনুসন্ধানের প্রকার নির্বাচন করুন"
 
 #: .\templates\researchEngine\query_page.html:151
 msgid "Choose search type"
-msgstr ""
+msgstr "অনুসন্ধানের প্রকার নির্বাচন করুন"
 
 #: .\templates\researchEngine\query_page.html:152
 msgid "Statute Search"
-msgstr ""
+msgstr "আইন অনুসন্ধান"
 
 #: .\templates\researchEngine\query_page.html:157
 msgid "Number of Results to Show"
-msgstr ""
+msgstr "প্রদর্শনের ফলাফলের সংখ্যা"
 
 #: .\templates\researchEngine\query_page.html:158
 msgid "Enter number of results"
-msgstr ""
+msgstr "ফলাফলের সংখ্যা লিখুন"
 
 #: .\templates\researchEngine\query_page.html:167
 msgid "How can I help you today?"
-msgstr ""
+msgstr "আজ আমি আপনাকে কিভাবে সাহায্য করতে পারি?"
 
 #: .\templates\researchEngine\query_page.html:171
 msgid "Provide summarization about the case uploaded with document."
-msgstr ""
+msgstr "আপলোড করা নথির সাথে মামলার সারসংক্ষেপ প্রদান করুন।"
 
 #: .\templates\researchEngine\query_page.html:172
 msgid ""
 "Explain the statute, acts and section and other legal information related to "
 "the case file uploaded."
 msgstr ""
+"আপলোড করা মামলার ফাইলের সাথে সম্পর্কিত আইন, বিধি এবং ধারাগুলি এবং অন্যান্য আইনি "
+"তথ্য ব্যাখ্যা করুন।"
 
 #: .\templates\researchEngine\query_page.html:173
 msgid ""
 "Provide the details about some similar cases like this one in the commercial "
 "court."
-msgstr ""
+msgstr "বাণিজ্যিক আদালতে এই ধরনের কিছু অনুরূপ মামলার বিস্তারিত প্রদান করুন।"
 
 #: .\templates\researchEngine\upload.html:4
 msgid "Upload Legal Document"
-msgstr ""
+msgstr "আইনি নথি আপলোড করুন"
 
 #: .\templates\researchEngine\upload.html:27
 msgid "Upload Your Case Document"
-msgstr ""
+msgstr "আপনার মামলার নথি আপলোড করুন"
 
 #: .\templates\researchEngine\upload.html:31
 msgid "Select Document (PDF or DOCX)"
-msgstr ""
+msgstr "নথি নির্বাচন করুন (PDF বা DOCX)"
 
 #: .\templates\researchEngine\upload.html:35
 msgid "Document Description (optional)"
-msgstr ""
+msgstr "নথির বর্ণনা (ঐচ্ছিক)"
 
 #: .\templates\researchEngine\upload.html:36
 msgid "Add any relevant details"
-msgstr ""
+msgstr "যেকোনো প্রাসঙ্গিক বিস্তারিত যোগ করুন"
 
 #: .\templates\researchEngine\upload.html:38
 msgid "Upload Document"
-msgstr ""
+msgstr "নথি আপলোড করুন"
+
+#~ msgid "Reset password"
+#~ msgstr "পাসওয়ার্ড রিসেট করুন"
+
+#~ msgid "Confirm"
+#~ msgstr "পাসওয়ার্ড রিসেট নিশ্চিত করুন"
+
+#~ msgid "Confirm Password"
+#~ msgstr "পাসওয়ার্ড রিসেট নিশ্চিত করুন"

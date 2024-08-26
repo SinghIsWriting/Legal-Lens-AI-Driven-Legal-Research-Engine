@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-25 01:29+0530\n"
+"POT-Creation-Date: 2024-08-26 17:27+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,18 +27,22 @@ msgid "Hindi"
 msgstr ""
 
 #: .\legalSupport\settings.py:106
-msgid "Tamil"
+msgid "Bengali"
 msgstr ""
+
+#: .\legalSupport\settings.py:107
+msgid "Tamil"
+msgstr "தமிழ்"
 
 #: .\templates\legalSupport\login.html:8
 #: .\templates\legalSupport\login.html:158
 #: .\templates\legalSupport\login.html:163
 #: .\templates\legalSupport\password_reset_complete.html:70
-#: .\templates\legalSupport\password_reset_form.html:169
-#: .\templates\legalSupport\register.html:185
-#: .\templates\researchEngine\base.html:153
+#: .\templates\legalSupport\password_reset_form.html:172
+#: .\templates\legalSupport\register.html:186
+#: .\templates\researchEngine\base.html:152
 msgid "Login"
-msgstr ""
+msgstr "உள்நுழைய"
 
 #: .\templates\legalSupport\login.html:117
 #: .\templates\legalSupport\password_reset_complete.html:35
@@ -51,7 +55,7 @@ msgstr ""
 #: .\templates\researchEngine\contact.html:62
 #: .\templates\researchEngine\landing_page.html:154
 msgid "AI Research Engine"
-msgstr ""
+msgstr "ஏஐ ஆராய்ச்சி எஞ்சின்"
 
 #: .\templates\legalSupport\login.html:123
 #: .\templates\legalSupport\password_reset_complete.html:41
@@ -60,12 +64,12 @@ msgstr ""
 #: .\templates\legalSupport\password_reset_form.html:123
 #: .\templates\legalSupport\register.html:122
 #: .\templates\researchEngine\about.html:92
-#: .\templates\researchEngine\base.html:105
+#: .\templates\researchEngine\base.html:104
 #: .\templates\researchEngine\contact.html:68
 #: .\templates\researchEngine\home.html:4
 #: .\templates\researchEngine\landing_page.html:161
 msgid "Home"
-msgstr ""
+msgstr "முதற் பக்கம்"
 
 #: .\templates\legalSupport\login.html:124
 #: .\templates\legalSupport\password_reset_complete.html:42
@@ -75,12 +79,12 @@ msgstr ""
 #: .\templates\legalSupport\password_reset_form.html:124
 #: .\templates\legalSupport\register.html:123
 #: .\templates\researchEngine\about.html:93
-#: .\templates\researchEngine\base.html:106
+#: .\templates\researchEngine\base.html:105
 #: .\templates\researchEngine\contact.html:69
 #: .\templates\researchEngine\landing_page.html:162
 #: .\templates\researchEngine\landing_page.html:225
 msgid "About"
-msgstr ""
+msgstr "பற்றி"
 
 #: .\templates\legalSupport\login.html:125
 #: .\templates\legalSupport\password_reset_confirm.html:125
@@ -88,18 +92,18 @@ msgstr ""
 #: .\templates\legalSupport\password_reset_form.html:125
 #: .\templates\legalSupport\register.html:124
 #: .\templates\researchEngine\about.html:94
-#: .\templates\researchEngine\base.html:107
+#: .\templates\researchEngine\base.html:106
 #: .\templates\researchEngine\contact.html:70
 #: .\templates\researchEngine\landing_page.html:163
 msgid "Contact"
-msgstr ""
+msgstr "தொடர்பு"
 
 #: .\templates\legalSupport\login.html:151
 #: .\templates\legalSupport\password_reset_form.html:151
 #: .\templates\legalSupport\register.html:150
 #: .\templates\researchEngine\landing_page.html:187
 msgid "AI-Driven Research Engine for Commercial Courts"
-msgstr ""
+msgstr "வணிக நீதிமன்றங்களுக்கு ஏஐ இயக்கित ஆராய்ச்சி எஞ்சின்"
 
 #: .\templates\legalSupport\login.html:152
 #: .\templates\legalSupport\password_reset_confirm.html:152
@@ -110,89 +114,134 @@ msgid ""
 "Empowering legal professionals with advanced AI tools for case prediction, "
 "document analysis, and legal queries."
 msgstr ""
+"வெற்றிகரமான வழக்குப் முன்னறிவிப்பு, ஆவணப் பகுப்பாய்வு மற்றும் சட்டக் கேள்விகளுக்கான மேம்பட்ட "
+"ஏஐ கருவிகளால் சட்டப் புலவியர்களை வலுப்படுத்துதல்."
 
 #: .\templates\legalSupport\login.html:161
 msgid "Username"
-msgstr ""
+msgstr "பயனர் பெயர்"
 
 #: .\templates\legalSupport\login.html:162
 msgid "Password"
-msgstr ""
+msgstr "கடவுச்சொல்"
 
 #: .\templates\legalSupport\login.html:165
 msgid "Forgot Password?"
-msgstr ""
+msgstr "கடவுச்சொல்லை மறந்தீர்களா?"
 
 #: .\templates\legalSupport\login.html:172
 msgid "Don't have an account"
-msgstr ""
+msgstr "ஒரு கணக்கு இல்லை"
 
 #: .\templates\legalSupport\login.html:172
 msgid "Sign Up"
-msgstr ""
+msgstr "புதிய கணக்கை உருவாக்கவும்"
 
 #: .\templates\legalSupport\password_reset_complete.html:8
 #: .\templates\legalSupport\password_reset_complete.html:68
 msgid "Password Reset Complete"
-msgstr ""
+msgstr "கடவுச்சொல் மீட்டமைப்பு நிறைவடைந்தது"
 
 #: .\templates\legalSupport\password_reset_complete.html:69
 msgid ""
 "Your password has been reset. You can now log in with your new password."
 msgstr ""
+"உங்கள் கடவுச்சொல் மீட்டமைக்கப்பட்டுள்ளது. இப்போது உங்கள் புதிய கடவுச்சொல்லுடன் உள்நுழையலாம்."
 
 #: .\templates\legalSupport\password_reset_complete.html:70
 msgid "Log in with your new password"
-msgstr ""
+msgstr "உங்கள் புதிய கடவுச்சொல்லுடன் உள்நுழையவும்"
 
 #: .\templates\legalSupport\password_reset_confirm.html:8
 msgid "Password Reset Confirm"
-msgstr ""
+msgstr "கடவுச்சொல் மீட்டமைப்பு உறுதி"
 
 #: .\templates\legalSupport\password_reset_confirm.html:151
 msgid "AI-Driven Research Engine for Commercial Court"
-msgstr ""
+msgstr "வணிக நீதிமன்றத்திற்கான ஏஐ இயக்கிய ஆராய்ச்சி எஞ்சின்"
 
 #: .\templates\legalSupport\password_reset_confirm.html:158
 msgid "Confirm Reset password"
-msgstr ""
+msgstr "கடவுச்சொல் மீட்டமைப்பை உறுதிப்படுத்தவும்"
 
 #: .\templates\legalSupport\password_reset_confirm.html:162
+#: .\templates\legalSupport\password_reset_confirm.html:163
+#: .\templates\legalSupport\password_reset_confirm.html:166
+#: .\templates\legalSupport\password_reset_confirm.html:167
+#: .\templates\legalSupport\password_reset_confirm.html:170
+#: .\templates\legalSupport\password_reset_confirm.html:171
+#: .\templates\legalSupport\register.html:169
+#: .\templates\legalSupport\register.html:170
+#: .\templates\legalSupport\register.html:173
+#: .\templates\legalSupport\register.html:174
+msgid "Enter Password"
+msgstr "கடவுச்சொல்"
+
+#: .\templates\legalSupport\password_reset_confirm.html:162
+#: .\templates\legalSupport\password_reset_confirm.html:163
+msgid "Old"
+msgstr "பழைய"
+
+#: .\templates\legalSupport\password_reset_confirm.html:166
+#: .\templates\legalSupport\password_reset_confirm.html:167
+#: .\templates\legalSupport\password_reset_confirm.html:170
+#: .\templates\legalSupport\password_reset_confirm.html:171
+msgid "New"
+msgstr "புது"
+
+#: .\templates\legalSupport\password_reset_confirm.html:170
+#: .\templates\legalSupport\password_reset_confirm.html:171
+#: .\templates\legalSupport\register.html:173
+#: .\templates\legalSupport\register.html:174
+msgid "Again"
+msgstr "மீண்டும்"
+
+#: .\templates\legalSupport\password_reset_confirm.html:173
+#: .\templates\legalSupport\password_reset_form.html:165
 msgid "Submit"
-msgstr ""
+msgstr "சமர்ப்பிக்கவும்"
 
 #: .\templates\legalSupport\password_reset_done.html:8
 msgid "Password Reset Done"
-msgstr ""
+msgstr "கடவுச்சொல் மீட்டமைப்பு முடிந்தது"
 
 #: .\templates\legalSupport\password_reset_done.html:69
 msgid "Password Reset Sent!"
-msgstr ""
+msgstr "கடவுச்சொல் மீட்டமைப்பு அனுப்பப்பட்டது!"
 
 #: .\templates\legalSupport\password_reset_done.html:70
 msgid "We've sent an email to your registered email"
-msgstr ""
+msgstr "உங்கள் பதிவு செய்யப்பட்ட மின்னஞ்சலுக்கு ஒரு மின்னஞ்சல் அனுப்பியுள்ளோம்"
 
 #: .\templates\legalSupport\password_reset_done.html:70
 msgid "with a link to reset your password."
-msgstr ""
+msgstr "உங்கள் கடவுச்சொல்லை மீட்டமைக்க ஒரு இணைப்புடன்."
 
 #: .\templates\legalSupport\password_reset_done.html:71
 msgid ""
 "If you don't receive the email, please check your spam folder or try again."
 msgstr ""
+"மின்னஞ்சலைப் பெறாவிட்டால், தயவுசெய்து உங்கள் ச்பாம் கோப்பையைச் சோதிக்கவும் அல்லது மீண்டும் "
+"முயற்சிக்கவும்."
 
 #: .\templates\legalSupport\password_reset_form.html:8
 msgid "Password Reset Form"
-msgstr ""
+msgstr "கடவுச்சொல் மீட்டமைப்பு படிவம்"
 
 #: .\templates\legalSupport\password_reset_form.html:158
-msgid "Reset password"
-msgstr ""
+msgid "Reset"
+msgstr "மீட்டமை"
 
-#: .\templates\legalSupport\password_reset_form.html:169
+#: .\templates\legalSupport\password_reset_form.html:162
+#: .\templates\legalSupport\password_reset_form.html:163
+#: .\templates\legalSupport\register.html:165
+#: .\templates\legalSupport\register.html:166
+msgid "Enter Email"
+msgstr "மின்னஞ்சல்"
+
+#: .\templates\legalSupport\password_reset_form.html:172
 msgid "Don't want to reset your password?"
-msgstr ""
+msgstr "உங்கள் கடவுச்சொல்லை மீட்டமைக்க விரும்பவில்லையா?"
 
 #: .\templates\legalSupport\register.html:8
 #: .\templates\researchEngine\about.html:175
@@ -200,24 +249,29 @@ msgstr ""
 #: .\templates\researchEngine\contact.html:106
 #: .\templates\researchEngine\landing_page.html:225
 msgid "Contact Us"
-msgstr ""
+msgstr "எங்களுடன் தொடர்புகொள்ளவும்"
 
 #: .\templates\legalSupport\register.html:157
 msgid "Register User"
-msgstr ""
+msgstr "பயனரை பதிவு செய்யவும்"
 
-#: .\templates\legalSupport\register.html:176
+#: .\templates\legalSupport\register.html:161
+#: .\templates\legalSupport\register.html:162
+msgid "Enter Username"
+msgstr "பயனர் பெயர்"
+
+#: .\templates\legalSupport\register.html:177
 msgid "Register"
-msgstr ""
+msgstr "பதிவு செய்யவும்"
 
-#: .\templates\legalSupport\register.html:185
+#: .\templates\legalSupport\register.html:186
 msgid "Already have an account?"
-msgstr ""
+msgstr "முந்தைய கணக்கு இருக்கிறதா?"
 
 #: .\templates\researchEngine\about.html:8
 #: .\templates\researchEngine\about.html:118
 msgid "About Us"
-msgstr ""
+msgstr "எங்களைப் பற்றி"
 
 #: .\templates\researchEngine\about.html:119
 msgid ""
@@ -225,14 +279,17 @@ msgid ""
 "support to help you achieve your goals. Learn more about what we do and meet "
 "the team behind the scenes."
 msgstr ""
+"எங்கள் திட்டத்திற்கு வரவேற்கிறோம். இங்கு, நாங்கள் உங்களுக்கு உங்கள் இலக்குகளை அடைய உதவும் "
+"புதுமையான தீர்வுகளை மற்றும் நேர்மையான ஆதரவை வழங்குகிறோம். நாங்கள் என்ன செய்கிறோம் என்பதைப் "
+"பற்றி மேலும் அறிந்து கொள்ளவும் மற்றும் பின்னணி குழுவை சந்தியுங்கள்."
 
 #: .\templates\researchEngine\about.html:125
 msgid "Meet Our Team"
-msgstr ""
+msgstr "எங்கள் குழுவைச் சந்தியுங்கள்"
 
 #: .\templates\researchEngine\about.html:130
 msgid "Abhishek Singh"
-msgstr ""
+msgstr "அபிஷேக் சிங்"
 
 #: .\templates\researchEngine\about.html:131
 #: .\templates\researchEngine\about.html:138
@@ -241,17 +298,19 @@ msgstr ""
 #: .\templates\researchEngine\about.html:159
 #: .\templates\researchEngine\about.html:166
 msgid "Team Member"
-msgstr ""
+msgstr "குழுவினர்"
 
 #: .\templates\researchEngine\about.html:132
 msgid ""
 "Abhishek Singh is the visionary behind our project. With over 3 years of "
 "experience in Computer Science and Programming languages."
 msgstr ""
+"அபிஷேக் சிங் எங்கள் திட்டத்தின் முன்னேற்றக் கண்ணோட்டத்தை வழங்குகிறார். கணினி அறிவியல் மற்றும் "
+"நிரலாக்க மொழிகளில் 3 ஆண்டுகளுக்கு மேற்பட்ட அனுபவம் கொண்டவர்."
 
 #: .\templates\researchEngine\about.html:137
 msgid "Hirakjyoti Medhi"
-msgstr ""
+msgstr "ஹிரக் ஜியோதி மேதி"
 
 #: .\templates\researchEngine\about.html:139
 #: .\templates\researchEngine\about.html:160
@@ -259,10 +318,12 @@ msgid ""
 "Jane leads our tech team, overseeing product development and ensuring our "
 "solutions are cutting-edge and reliable."
 msgstr ""
+"ஜேன் எங்கள் தொழில்நுட்பக் குழுவை வழிநடத்துகிறார், தயாரிப்பு மேம்பாட்டை கவனிக்கிறார் மற்றும் "
+"எங்கள் தீர்வுகள் முன்னணி மற்றும் நம்பகமானவை என்பதைக் உறுதிப்படுத்துகிறார்."
 
 #: .\templates\researchEngine\about.html:144
 msgid "Biswajit Bera"
-msgstr ""
+msgstr "பிஸ்வஜித் ஷொரா"
 
 #: .\templates\researchEngine\about.html:146
 #: .\templates\researchEngine\about.html:167
@@ -270,287 +331,301 @@ msgid ""
 "Michael is responsible for creating intuitive and engaging user interfaces, "
 "making sure our products are both functional and beautiful."
 msgstr ""
+"மைக்கேல் எங்கள் தயாரிப்புகள் செயல்திறன் மற்றும் அழகாக இருப்பதை உறுதிசெய்து, திடம்செய்து "
+"மற்றும் ஈர்க்கக்கூடிய பயனர் இடையீடுகளை உருவாக்கும் பொறுப்பாக உள்ளார்."
 
 #: .\templates\researchEngine\about.html:151
 msgid "Roshan Jha"
-msgstr ""
+msgstr "ரொஷன் ஜா"
 
 #: .\templates\researchEngine\about.html:153
 msgid ""
 "Roshan Jha is the visionary behind our project. With over 3 years of "
 "experience in Computer Science and Programming languages."
 msgstr ""
+"ரொஷன் ஜா எங்கள் திட்டத்தின் முன்னேற்றக் கண்ணோட்டத்தை வழங்குகிறார். கணினி அறிவியல் மற்றும் "
+"நிரலாக்க மொழிகளில் 3 ஆண்டுகளுக்கு மேற்பட்ட அனுபவம் கொண்டவர்."
 
 #: .\templates\researchEngine\about.html:158
 msgid "Ashutosh Kumar"
-msgstr ""
+msgstr "அஷ்டோஷ் குமார்"
 
 #: .\templates\researchEngine\about.html:165
 msgid "Shruti Jaiswal"
-msgstr ""
+msgstr "ஷ்ருதா ஜெய்ஸ்வால்"
 
 #: .\templates\researchEngine\about.html:176
 msgid "Have questions or need support? Reach out to us at"
 msgstr ""
+"கேள்விகள் உள்ளனவா அல்லது ஆதரவு தேவைதா? எங்களுக்கு கீழ்காணும் இடத்தில் தொடர்புகொள்ளவும்"
 
 #: .\templates\researchEngine\about.html:177
 #: .\templates\researchEngine\contact.html:98
 #: .\templates\researchEngine\contact.html:113
 msgid "Email"
-msgstr ""
+msgstr "மின்னஞ்சல்"
 
 #: .\templates\researchEngine\about.html:178
 #: .\templates\researchEngine\contact.html:99
 msgid "Phone"
-msgstr ""
+msgstr "தொலைபேசி"
 
 #: .\templates\researchEngine\about.html:179
 msgid ""
 "Address: Indian Institute of Technology (Indian School of Mines) Dhanbad, "
 "Jharkhand, India"
 msgstr ""
+"முகவரி: இந்தியன் இன்ஸ்டிடியூட் ஆஃப் டெக்னாலஜி (இந்தியன் ஸ்கூல் ஆஃப் மைன்ஸ்) தன்வாத், ஜார்கண்ட், "
+"இந்தியா"
 
 #: .\templates\researchEngine\base.html:98
 #: .\templates\researchEngine\home.html:4
 #: .\templates\researchEngine\query_page.html:3
 #: .\templates\researchEngine\upload.html:4
 msgid "AI Legal Research"
-msgstr ""
+msgstr "ஏஐ சட்ட ஆராய்ச்சி"
 
-#: .\templates\researchEngine\base.html:139
+#: .\templates\researchEngine\base.html:138
 msgid "Upload Documents"
-msgstr ""
+msgstr "ஆவணங்களைப் பதிவேற்றவும்"
 
-#: .\templates\researchEngine\base.html:142
+#: .\templates\researchEngine\base.html:141
 #: .\templates\researchEngine\landing_page.html:214
 msgid "Legal Queries"
-msgstr ""
+msgstr "சட்டக் கேள்விகள்"
 
-#: .\templates\researchEngine\base.html:145
+#: .\templates\researchEngine\base.html:144
 #: .\templates\researchEngine\landing_page.html:207
+#: .\templates\researchEngine\prediction.html:17
 msgid "Case Prediction"
-msgstr ""
+msgstr "முறையீட்டு முன்கணிப்பு"
 
-#: .\templates\researchEngine\base.html:151
+#: .\templates\researchEngine\base.html:150
 msgid "Logout"
-msgstr ""
+msgstr "உள்நுழைவிழக்கு"
 
 #: .\templates\researchEngine\contact.html:97
 msgid "Contact Information"
-msgstr ""
+msgstr "தொடர்பு தகவல்"
 
 #: .\templates\researchEngine\contact.html:100
 msgid "Address"
-msgstr ""
+msgstr "முகவரி"
 
 #: .\templates\researchEngine\contact.html:100
 msgid ""
 "Indian Institute of Technology (Indian School of Mines) Dhanbad, Jharkhand, "
 "India"
-msgstr ""
+msgstr "இந்திய தொழில்நுட்ப நிறுவனம் (இந்தியன் ஸ்கூல் ஆஃப் மைன்ஸ்) தன்வாத், ஜார்கண்ட், இந்தியா"
 
 #: .\templates\researchEngine\contact.html:109
 msgid "Name"
-msgstr ""
+msgstr "பெயர்"
 
 #: .\templates\researchEngine\contact.html:117
 msgid "Message"
-msgstr ""
+msgstr "செய்தி"
 
 #: .\templates\researchEngine\contact.html:120
 msgid "Send Message"
-msgstr ""
+msgstr "செய்தி அனுப்பு"
 
 #: .\templates\researchEngine\contact.html:131
 msgid "Our Location"
-msgstr ""
+msgstr "எங்கள் இடம்"
 
 #: .\templates\researchEngine\home.html:130
 #: .\templates\researchEngine\query_page.html:166
 msgid "Hello"
-msgstr ""
+msgstr "வணக்கம்"
 
 #: .\templates\researchEngine\home.html:131
 msgid "How can I help you today"
-msgstr ""
+msgstr "இன்று உங்களுக்கு நான் எவ்வாறு உதவலாம்?"
 
 #: .\templates\researchEngine\home.html:137
 #: .\templates\researchEngine\query_page.html:179
 msgid "Type your question"
-msgstr ""
+msgstr "உங்கள் கேள்வியை টাইப் செய்யவும்"
 
 #: .\templates\researchEngine\landing_page.html:8
 msgid "Project Landing Page"
-msgstr ""
+msgstr "திட்டத்தின் லாண்டிங் பக்கம்"
 
 #: .\templates\researchEngine\landing_page.html:189
 msgid "Get Started"
-msgstr ""
+msgstr "தொடங்கவும்"
 
 #: .\templates\researchEngine\landing_page.html:195
 msgid "Key Features"
-msgstr ""
+msgstr "முக்கிய அம்சங்கள்"
 
 #: .\templates\researchEngine\landing_page.html:200
 msgid "Document Upload"
-msgstr ""
+msgstr "ஆவணப் பதிவேற்றம்"
 
 #: .\templates\researchEngine\landing_page.html:201
 msgid ""
 "Easily upload legal documents in PDF or DOC format for analysis and insights."
 msgstr ""
+"ஆராய்ச்சி மற்றும் தகவலுக்கான PDF அல்லது DOC வடிவத்தில் சட்ட ஆவணங்களை எளிதாக பதிவேற்றவும்."
 
 #: .\templates\researchEngine\landing_page.html:208
 msgid ""
 "Leverage AI to predict case outcomes based on historical data and trends."
 msgstr ""
+"ஐஏவை பயன்படுத்தி வரலாற்று தரவுகள் மற்றும் திருப்பங்கள் அடிப்படையில் வழக்கின் முடிவுகளை "
+"கணிக்கவும்."
 
 #: .\templates\researchEngine\landing_page.html:215
 msgid ""
 "Ask detailed legal questions and get precise answers tailored to your needs."
 msgstr ""
+"விபரமான சட்டக் கேள்விகளை கேட்டு, உங்கள் தேவைகளுக்கேற்ப துல்லியமான பதில்களைப் பெறுங்கள்."
 
 #: .\templates\researchEngine\landing_page.html:224
 msgid "Legal Lens: AI-Driven Research Engine. All rights reserved."
-msgstr ""
+msgstr "சட்ட லென்ஸ்: ஏஐ இயக்கும் ஆராய்ச்சி இயந்திரம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை."
 
 #: .\templates\researchEngine\prediction.html:4
 msgid "Predicted Outcomes - AI Legal Research"
-msgstr ""
+msgstr "முன்கணிக்கப்பட்ட முடிவுகள் - ஏஐ சட்ட ஆராய்ச்சி"
 
 #: .\templates\researchEngine\prediction.html:20
 msgid "Enter Case Summary"
-msgstr ""
+msgstr "வழக்கின் சுருக்கத்தை உள்ளிடவும்"
 
 #: .\templates\researchEngine\prediction.html:21
 msgid "Provide a brief summary of the case"
-msgstr ""
+msgstr "வழக்கின் ஒரு சுருக்கமான தொகுப்பை வழங்கவும்"
 
 #: .\templates\researchEngine\prediction.html:25
 msgid "Select Case Type"
-msgstr ""
+msgstr "வழக்கின் வகையைத் தேர்ந்தெடுக்கவும்"
 
 #: .\templates\researchEngine\prediction.html:27
 msgid "Choose case type"
-msgstr ""
+msgstr "வழக்கின் வகையைத் தேர்ந்தெடுக்கவும்"
 
 #: .\templates\researchEngine\prediction.html:28
 msgid "Civil"
-msgstr ""
+msgstr "சிவில்"
 
 #: .\templates\researchEngine\prediction.html:29
 msgid "Criminal"
-msgstr ""
+msgstr "குற்றவியல்"
 
 #: .\templates\researchEngine\prediction.html:30
 msgid "Corporate"
-msgstr ""
+msgstr "கார்ப்பரேட்"
 
 #: .\templates\researchEngine\prediction.html:31
 msgid "Family"
-msgstr ""
+msgstr "குடும்ப"
 
 #: .\templates\researchEngine\prediction.html:32
 msgid "Others"
-msgstr ""
+msgstr "மற்றவை"
 
 #: .\templates\researchEngine\prediction.html:37
 msgid "Select Jurisdiction"
-msgstr ""
+msgstr "அரசியலாக்கத்தைத் தேர்ந்தெடுக்கவும்"
 
 #: .\templates\researchEngine\prediction.html:39
 msgid "Choose jurisdiction"
-msgstr ""
+msgstr "அரசியலாக்கத்தைத் தேர்ந்தெடுக்கவும்"
 
 #: .\templates\researchEngine\prediction.html:40
 msgid "District Court"
-msgstr ""
+msgstr "மாவட்ட நீதிமன்றம்"
 
 #: .\templates\researchEngine\prediction.html:41
 msgid "High Court"
-msgstr ""
+msgstr "உயர்நீதிமன்றம்"
 
 #: .\templates\researchEngine\prediction.html:42
 msgid "Supreme Court"
-msgstr ""
+msgstr "சூப்பிரீம் கோர்ட்"
 
 #: .\templates\researchEngine\prediction.html:46
 msgid "Predict Outcome"
-msgstr ""
+msgstr "முடிவை கணிக்கவும்"
 
 #: .\templates\researchEngine\prediction.html:51
 msgid "Prediction Result"
-msgstr ""
+msgstr "முன்கணிப்பு முடிவு"
 
 #: .\templates\researchEngine\query_page.html:3
 #: .\templates\researchEngine\query_page.html:153
 msgid "Legal Search"
-msgstr ""
+msgstr "சட்ட தேடல்"
 
 #: .\templates\researchEngine\query_page.html:146
 msgid "Legal Queries and Details"
-msgstr ""
+msgstr "சட்டக் கேள்விகள் மற்றும் விவரங்கள்"
 
 #: .\templates\researchEngine\query_page.html:149
 msgid "Select Search Type"
-msgstr ""
+msgstr "தேடல் வகையைத் தேர்ந்தெடுக்கவும்"
 
 #: .\templates\researchEngine\query_page.html:151
 msgid "Choose search type"
-msgstr ""
+msgstr "தேடல் வகையைத் தேர்ந்தெடுக்கவும்"
 
 #: .\templates\researchEngine\query_page.html:152
 msgid "Statute Search"
-msgstr ""
+msgstr "சட்ட தேடல்"
 
 #: .\templates\researchEngine\query_page.html:157
 msgid "Number of Results to Show"
-msgstr ""
+msgstr "காட்ட வேண்டிய முடிவுகளின் எண்ணிக்கை"
 
 #: .\templates\researchEngine\query_page.html:158
 msgid "Enter number of results"
-msgstr ""
+msgstr "முடிவுகளின் எண்ணிக்கையை உள்ளிடவும்"
 
 #: .\templates\researchEngine\query_page.html:167
 msgid "How can I help you today?"
-msgstr ""
+msgstr "இன்று உங்களுக்கு நான் எவ்வாறு உதவலாம்?"
 
 #: .\templates\researchEngine\query_page.html:171
 msgid "Provide summarization about the case uploaded with document."
-msgstr ""
+msgstr "ஆவணத்துடன் பதிவேற்றிய வழக்கின் சுருக்கத்தை வழங்கவும்."
 
 #: .\templates\researchEngine\query_page.html:172
 msgid ""
 "Explain the statute, acts and section and other legal information related to "
 "the case file uploaded."
 msgstr ""
+"பதிவேற்றிய வழக்கின் கோப்புடன் தொடர்புடைய சட்டம், சட்டங்கள், பிரிவுகள் மற்றும் பிற சட்ட "
+"தகவல்களை விளக்கவும்."
 
 #: .\templates\researchEngine\query_page.html:173
 msgid ""
 "Provide the details about some similar cases like this one in the commercial "
 "court."
-msgstr ""
+msgstr "வணிக நீதிமன்றத்தில் இதுபோன்ற சில மோதல்களின் விவரங்களை வழங்கவும்."
 
 #: .\templates\researchEngine\upload.html:4
 msgid "Upload Legal Document"
-msgstr ""
+msgstr "சட்ட ஆவணத்தைப் பதிவேற்றவும்"
 
 #: .\templates\researchEngine\upload.html:27
 msgid "Upload Your Case Document"
-msgstr ""
+msgstr "உங்கள் வழக்கின் ஆவணத்தைப் பதிவேற்றவும்"
 
 #: .\templates\researchEngine\upload.html:31
 msgid "Select Document (PDF or DOCX)"
-msgstr ""
+msgstr "ஆவணத்தைத் தேர்ந்தெடுக்கவும் (PDF அல்லது DOCX)"
 
 #: .\templates\researchEngine\upload.html:35
 msgid "Document Description (optional)"
-msgstr ""
+msgstr "ஆவணத்தின் விளக்கம் (விருப்பம்)"
 
 #: .\templates\researchEngine\upload.html:36
 msgid "Add any relevant details"
-msgstr ""
+msgstr "தொடர்புடைய விவரங்களைச் சேர்க்கவும்"
 
 #: .\templates\researchEngine\upload.html:38
 msgid "Upload Document"
-msgstr ""
+msgstr "ஆவணத்தைப் பதிவேற்றவும்"

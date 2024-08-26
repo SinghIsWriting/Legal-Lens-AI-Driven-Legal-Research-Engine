@@ -103,6 +103,7 @@ USE_TZ = True
 LANGUAGES = [
     ('en', _('English')),
     ('hi', _('Hindi')),
+    ('bn', _('Bengali')),
     ('ta', _('Tamil')),
 ]
 

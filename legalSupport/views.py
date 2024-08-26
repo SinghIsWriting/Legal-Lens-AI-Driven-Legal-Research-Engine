@@ -5,6 +5,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.utils import timezone
 from django.contrib import messages
 from .utils import send_welcome_email
+from django.contrib.auth import views as auth_views
 
 def register(request):
     """
@@ -50,6 +51,7 @@ def loginPage(request):
     Returns:
         HttpResponse: The rendered HTML template for user login.
     """
+    print(auth_views.PasswordResetConfirmView())
     form = AuthenticationForm()
     if request.method == 'POST':
         form = AuthenticationForm(request, data=request.POST)
@@ -71,6 +73,7 @@ def Logout(request):
     return redirect('/')
 
 def password_reset_view(request):
+    print(auth_views.PasswordResetForm())
     if request.method == 'POST':
         form = auth_views.PasswordResetForm(request.POST)
         if form.is_valid():
@@ -78,4 +81,5 @@ def password_reset_view(request):
             return redirect('password_reset_done')
     else:
         form = auth_views.PasswordResetForm()
+        print(form)
     return render(request, 'password_reset_form.html', {'form': form})

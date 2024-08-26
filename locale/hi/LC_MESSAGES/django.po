@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-25 01:29+0530\n"
+"POT-Creation-Date: 2024-08-26 17:27+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,10 @@ msgid "Hindi"
 msgstr ""
 
 #: .\legalSupport\settings.py:106
+msgid "Bengali"
+msgstr ""
+
+#: .\legalSupport\settings.py:107
 msgid "Tamil"
 msgstr ""
 
@@ -34,9 +38,9 @@ msgstr ""
 #: .\templates\legalSupport\login.html:158
 #: .\templates\legalSupport\login.html:163
 #: .\templates\legalSupport\password_reset_complete.html:70
-#: .\templates\legalSupport\password_reset_form.html:169
-#: .\templates\legalSupport\register.html:185
-#: .\templates\researchEngine\base.html:153
+#: .\templates\legalSupport\password_reset_form.html:172
+#: .\templates\legalSupport\register.html:186
+#: .\templates\researchEngine\base.html:152
 msgid "Login"
 msgstr "लॉगिन"
 
@@ -60,7 +64,7 @@ msgstr "एआई रिसर्च इंजन"
 #: .\templates\legalSupport\password_reset_form.html:123
 #: .\templates\legalSupport\register.html:122
 #: .\templates\researchEngine\about.html:92
-#: .\templates\researchEngine\base.html:105
+#: .\templates\researchEngine\base.html:104
 #: .\templates\researchEngine\contact.html:68
 #: .\templates\researchEngine\home.html:4
 #: .\templates\researchEngine\landing_page.html:161
@@ -75,7 +79,7 @@ msgstr "घर"
 #: .\templates\legalSupport\password_reset_form.html:124
 #: .\templates\legalSupport\register.html:123
 #: .\templates\researchEngine\about.html:93
-#: .\templates\researchEngine\base.html:106
+#: .\templates\researchEngine\base.html:105
 #: .\templates\researchEngine\contact.html:69
 #: .\templates\researchEngine\landing_page.html:162
 #: .\templates\researchEngine\landing_page.html:225
@@ -88,7 +92,7 @@ msgstr "हमारे बारे में"
 #: .\templates\legalSupport\password_reset_form.html:125
 #: .\templates\legalSupport\register.html:124
 #: .\templates\researchEngine\about.html:94
-#: .\templates\researchEngine\base.html:107
+#: .\templates\researchEngine\base.html:106
 #: .\templates\researchEngine\contact.html:70
 #: .\templates\researchEngine\landing_page.html:163
 msgid "Contact"
@@ -152,8 +156,6 @@ msgid "Password Reset Confirm"
 msgstr "पासवर्ड रीसेट पुष्टि करें"
 
 #: .\templates\legalSupport\password_reset_confirm.html:151
-#, fuzzy
-#| msgid "AI-Driven Research Engine for Commercial Courts"
 msgid "AI-Driven Research Engine for Commercial Court"
 msgstr "वाणिज्यिक न्यायालयों के लिए एआई-संचालित अनुसंधान इंजन"
 
@@ -162,6 +164,39 @@ msgid "Confirm Reset password"
 msgstr "पासवर्ड रीसेट करने की पुष्टि करें"
 
 #: .\templates\legalSupport\password_reset_confirm.html:162
+#: .\templates\legalSupport\password_reset_confirm.html:163
+#: .\templates\legalSupport\password_reset_confirm.html:166
+#: .\templates\legalSupport\password_reset_confirm.html:167
+#: .\templates\legalSupport\password_reset_confirm.html:170
+#: .\templates\legalSupport\password_reset_confirm.html:171
+#: .\templates\legalSupport\register.html:169
+#: .\templates\legalSupport\register.html:170
+#: .\templates\legalSupport\register.html:173
+#: .\templates\legalSupport\register.html:174
+msgid "Enter Password"
+msgstr "पासवर्ड"
+
+#: .\templates\legalSupport\password_reset_confirm.html:162
+#: .\templates\legalSupport\password_reset_confirm.html:163
+msgid "Old"
+msgstr "पुराना"
+
+#: .\templates\legalSupport\password_reset_confirm.html:166
+#: .\templates\legalSupport\password_reset_confirm.html:167
+#: .\templates\legalSupport\password_reset_confirm.html:170
+#: .\templates\legalSupport\password_reset_confirm.html:171
+msgid "New"
+msgstr "नया"
+
+#: .\templates\legalSupport\password_reset_confirm.html:170
+#: .\templates\legalSupport\password_reset_confirm.html:171
+#: .\templates\legalSupport\register.html:173
+#: .\templates\legalSupport\register.html:174
+msgid "Again"
+msgstr "दोबारा"
+
+#: .\templates\legalSupport\password_reset_confirm.html:173
+#: .\templates\legalSupport\password_reset_form.html:165
 msgid "Submit"
 msgstr "जमा करें"
 
@@ -192,10 +227,17 @@ msgid "Password Reset Form"
 msgstr "पासवर्ड रीसेट फॉर्म"
 
 #: .\templates\legalSupport\password_reset_form.html:158
-msgid "Reset password"
-msgstr "पासवर्ड रीसेट"
+msgid "Reset"
+msgstr "रीसेट"
 
-#: .\templates\legalSupport\password_reset_form.html:169
+#: .\templates\legalSupport\password_reset_form.html:162
+#: .\templates\legalSupport\password_reset_form.html:163
+#: .\templates\legalSupport\register.html:165
+#: .\templates\legalSupport\register.html:166
+msgid "Enter Email"
+msgstr "ईमेल"
+
+#: .\templates\legalSupport\password_reset_form.html:172
 msgid "Don't want to reset your password?"
 msgstr "क्या आप अपना पासवर्ड रीसेट नहीं करना चाहते?"
 
@@ -211,11 +253,16 @@ msgstr "संपर्क करें"
 msgid "Register User"
 msgstr "Register User"
 
-#: .\templates\legalSupport\register.html:176
+#: .\templates\legalSupport\register.html:161
+#: .\templates\legalSupport\register.html:162
+msgid "Enter Username"
+msgstr "उपयोगकर्ता नाम"
+
+#: .\templates\legalSupport\register.html:177
 msgid "Register"
 msgstr "रजिस्टर करें"
 
-#: .\templates\legalSupport\register.html:185
+#: .\templates\legalSupport\register.html:186
 msgid "Already have an account?"
 msgstr "क्या आपके पास पहले से एक खाता मौजूद है?"
 
@@ -333,21 +380,22 @@ msgstr "पता: भारतीय प्रौद्योगिकी स�
 msgid "AI Legal Research"
 msgstr "एआई रिसर्च इंजन"
 
-#: .\templates\researchEngine\base.html:139
+#: .\templates\researchEngine\base.html:138
 msgid "Upload Documents"
 msgstr "दस्तावेज़ अपलोड करें"
 
-#: .\templates\researchEngine\base.html:142
+#: .\templates\researchEngine\base.html:141
 #: .\templates\researchEngine\landing_page.html:214
 msgid "Legal Queries"
 msgstr "कानूनी प्रश्न"
 
-#: .\templates\researchEngine\base.html:145
+#: .\templates\researchEngine\base.html:144
 #: .\templates\researchEngine\landing_page.html:207
+#: .\templates\researchEngine\prediction.html:17
 msgid "Case Prediction"
 msgstr "मामले की भविष्यवाणी"
 
-#: .\templates\researchEngine\base.html:151
+#: .\templates\researchEngine\base.html:150
 msgid "Logout"
 msgstr "लॉगआउट"
 
@@ -576,3 +624,9 @@ msgstr "कोई भी प्रासंगिक विवरण जोड�
 #: .\templates\researchEngine\upload.html:38
 msgid "Upload Document"
 msgstr "दस्तावेज़ अपलोड करें"
+
+#~ msgid "Reset password"
+#~ msgstr "पासवर्ड रीसेट"
+
+#~ msgid "Enter email"
+#~ msgstr "ईमेल"
