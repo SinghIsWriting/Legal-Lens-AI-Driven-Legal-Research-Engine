@@ -46,6 +46,21 @@
             align-items: center;
             flex-direction: column;
             animation: fadeIn 1.5s ease-in-out;
+            background-image: url('{% static "images/bg.png" %}');
+            background-size: cover;
+            background-position: center;
+        }
+        .hero-section .shade {
+            height: 100%;
+            width: 100%;
+            background: #181818;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            animation: fadeIn 1.5s ease-in-out;
+            background: rgba(18, 17, 17, 0.726);
+            background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));
         }
 
         @keyframes fadeIn {
@@ -184,9 +199,12 @@
 
     <!-- Hero Section -->
     <section class="hero-section">
-        <h1 class="hero-title">{% trans "AI-Driven Research Engine for Commercial Courts" %}</h1>
-        <p class="hero-description">{% trans "Empowering legal professionals with advanced AI tools for case prediction, document analysis, and legal queries." %}</p>
-        <a href="/register/" class="btn btn-get-started">{% trans "Get Started" %}</a>
+        <div class="shade">
+            <h1 class="hero-title">{% trans "AI-Driven Research Engine for Commercial Courts" %}</h1>
+            <p class="hero-description">{% trans "Empowering legal professionals with advanced AI tools for case prediction, document analysis, and legal queries." %}</p>
+            <a href="/register/" class="btn btn-get-started">{% trans "Get Started" %}</a>
+        </div>
+        
     </section>
 
     <!-- Features Section -->
